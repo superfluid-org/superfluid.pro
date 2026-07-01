@@ -662,8 +662,8 @@ importers:
         specifier: ^0.18.4
         version: 0.18.4
       '@superfluid-finance/ethereum-contracts':
-        specifier: ^1.15.1
-        version: 1.15.1(@openzeppelin/contracts@4.9.6)(@openzeppelin/test-helpers@0.5.16(bn.js@5.2.3)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.1.0)(encoding@0.1.13)(ethers@5.8.0(bufferutil@4.1.0)(utf-8-validate@5.0.10))(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
+        specifier: ^1.15.2
+        version: 1.15.2(@openzeppelin/contracts@4.9.6)(@openzeppelin/test-helpers@0.5.16(bn.js@5.2.3)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.1.0)(encoding@0.1.13)(ethers@5.8.0(bufferutil@4.1.0)(utf-8-validate@5.0.10))(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
       '@superfluid-finance/metadata':
         specifier: ^1.6.3
         version: 1.6.3
@@ -5756,8 +5756,8 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@superfluid-finance/ethereum-contracts@1.15.1':
-    resolution: {integrity: sha512-OLTA65eVRBS5olXhMmw1zwgz50M1hcQ8iQxIin5BdEBDynYa4Gjqi02OS13Zjk9AKvFYgMkfH9ffmDX5ba4cFg==}
+  '@superfluid-finance/ethereum-contracts@1.15.2':
+    resolution: {integrity: sha512-pvNZvjR72VNdVsUyk0AEsyU8nhk3ClFI9IDfpDVgHaeupugUzrtrsWAwr8s9iAbNgC7uS4e3/kz1Afd+aK5H7Q==}
     peerDependencies:
       '@openzeppelin/contracts': ^5.0.0
       ethers: ^5.7.2
@@ -22657,7 +22657,7 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@superfluid-finance/ethereum-contracts@1.15.1(@openzeppelin/contracts@4.9.6)(@openzeppelin/test-helpers@0.5.16(bn.js@5.2.3)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.1.0)(encoding@0.1.13)(ethers@5.8.0(bufferutil@4.1.0)(utf-8-validate@5.0.10))(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)':
+  '@superfluid-finance/ethereum-contracts@1.15.2(@openzeppelin/contracts@4.9.6)(@openzeppelin/test-helpers@0.5.16(bn.js@5.2.3)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.1.0)(encoding@0.1.13)(ethers@5.8.0(bufferutil@4.1.0)(utf-8-validate@5.0.10))(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)':
     dependencies:
       '@decentral.ee/web3-helpers': 0.5.3(@openzeppelin/test-helpers@0.5.16(bn.js@5.2.3)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10))
       '@nomiclabs/hardhat-ethers': 2.2.3(ethers@5.8.0(bufferutil@4.1.0)(utf-8-validate@5.0.10))(hardhat@2.27.2(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10))
