@@ -47,3 +47,6 @@ jobs:
 
       - name: Type Check
         run: pnpm typecheck --filter=@sfpro/sdk
+
+      - name: Validate SDK Package
+        run: pnpm --filter=@sfpro/sdk check:package
