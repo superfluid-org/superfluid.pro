@@ -46,6 +46,9 @@ jobs:
       - name: Run Tests
         run: pnpm test --filter=@sfpro/sdk
 
+      - name: Validate SDK Package
+        run: pnpm --filter=@sfpro/sdk check:package
+
       - name: Create Release Pull Request or Publish to npm
         id: changesets
         uses: changesets/action@v1

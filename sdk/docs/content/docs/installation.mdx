@@ -152,3 +152,17 @@ function FlowInfo() {
 ```
 
 Vite quirk: add `resolve: { dedupe: ['wagmi'] }` to `vite.config.ts` to avoid “WagmiProviderNotFoundError”.
+
+## 4 · Module format (ESM / CommonJS)
+
+`@sfpro/sdk` is **ESM-only** (`"type": "module"`). Bundlers (Vite, Next.js, webpack) and native ESM (`import`) work out of the box — this is how most consumers use it.
+
+**Consuming from CommonJS?** The peer deps (viem / wagmi / @wagmi/core) are themselves ESM-only, so the `/hook`, `/action`, `/config`, and `/constant` entrypoints can only run in an ESM context. The pure-data entrypoints carry no such deps — `/abi` (plus `/abi/core`, `/abi/automation`, `/abi/sup`) and `/util` — and are reachable from CommonJS:
+
+```ts
+// Any Node version — dynamic import from a CommonJS file
+const { cfaV1ForwarderAbi } = await import("@sfpro/sdk/abi");
+
+// Node 20.19+ / 22.12+ — synchronous require works for these data entrypoints too
+const { cfaV1ForwarderAbi } = require("@sfpro/sdk/abi");
+```

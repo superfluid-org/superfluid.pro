@@ -136,6 +136,11 @@ export const blindMacroForwarderAbi = [
   { type: 'error', inputs: [], name: 'SUPER_TOKEN_TRANSFER_TO_ZERO_ADDRESS' },
   {
     type: 'error',
+    inputs: [{ name: 'value', internalType: 'int256', type: 'int256' }],
+    name: 'SafeCastOverflowedIntToUint',
+  },
+  {
+    type: 'error',
     inputs: [{ name: 'value', internalType: 'uint256', type: 'uint256' }],
     name: 'SafeCastOverflowedUintToInt',
   },
@@ -170,11 +175,6 @@ export const blindMacroForwarderAbi = [
   { type: 'error', inputs: [], name: 'CFA_NO_SELF_FLOW' },
   { type: 'error', inputs: [], name: 'CFA_ZERO_ADDRESS_RECEIVER' },
   { type: 'error', inputs: [], name: 'CFA_ZERO_ADDRESS_SENDER' },
-  {
-    type: 'error',
-    inputs: [{ name: 'value', internalType: 'int256', type: 'int256' }],
-    name: 'SafeCastOverflowedIntToUint',
-  },
   { type: 'error', inputs: [], name: 'GDA_ADMIN_CANNOT_BE_POOL' },
   { type: 'error', inputs: [], name: 'GDA_CANNOT_CONNECT_POOL' },
   { type: 'error', inputs: [], name: 'GDA_DISTRIBUTE_FOR_OTHERS_NOT_ALLOWED' },
@@ -1067,6 +1067,11 @@ export const clearMacroForwarderAbi = [
   { type: 'error', inputs: [], name: 'SUPER_TOKEN_TRANSFER_TO_ZERO_ADDRESS' },
   {
     type: 'error',
+    inputs: [{ name: 'value', internalType: 'int256', type: 'int256' }],
+    name: 'SafeCastOverflowedIntToUint',
+  },
+  {
+    type: 'error',
     inputs: [{ name: 'value', internalType: 'uint256', type: 'uint256' }],
     name: 'SafeCastOverflowedUintToInt',
   },
@@ -1096,11 +1101,6 @@ export const clearMacroForwarderAbi = [
   { type: 'error', inputs: [], name: 'CFA_NO_SELF_FLOW' },
   { type: 'error', inputs: [], name: 'CFA_ZERO_ADDRESS_RECEIVER' },
   { type: 'error', inputs: [], name: 'CFA_ZERO_ADDRESS_SENDER' },
-  {
-    type: 'error',
-    inputs: [{ name: 'value', internalType: 'int256', type: 'int256' }],
-    name: 'SafeCastOverflowedIntToUint',
-  },
   { type: 'error', inputs: [], name: 'GDA_ADMIN_CANNOT_BE_POOL' },
   { type: 'error', inputs: [], name: 'GDA_CANNOT_CONNECT_POOL' },
   { type: 'error', inputs: [], name: 'GDA_DISTRIBUTE_FOR_OTHERS_NOT_ALLOWED' },
@@ -2349,6 +2349,11 @@ export const superTokenAbi = [
   },
   { type: 'error', inputs: [], name: 'SUPER_TOKEN_TRANSFER_FROM_ZERO_ADDRESS' },
   { type: 'error', inputs: [], name: 'SUPER_TOKEN_TRANSFER_TO_ZERO_ADDRESS' },
+  {
+    type: 'error',
+    inputs: [{ name: 'value', internalType: 'int256', type: 'int256' }],
+    name: 'SafeCastOverflowedIntToUint',
+  },
   {
     type: 'error',
     inputs: [{ name: 'value', internalType: 'uint256', type: 'uint256' }],

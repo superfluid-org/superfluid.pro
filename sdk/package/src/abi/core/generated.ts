@@ -3634,6 +3634,11 @@ export const hostAbi = [
   { type: 'error', inputs: [], name: 'SUPER_TOKEN_TRANSFER_TO_ZERO_ADDRESS' },
   {
     type: 'error',
+    inputs: [{ name: 'value', internalType: 'int256', type: 'int256' }],
+    name: 'SafeCastOverflowedIntToUint',
+  },
+  {
+    type: 'error',
     inputs: [{ name: 'value', internalType: 'uint256', type: 'uint256' }],
     name: 'SafeCastOverflowedUintToInt',
   },
@@ -3663,11 +3668,6 @@ export const hostAbi = [
   { type: 'error', inputs: [], name: 'CFA_NO_SELF_FLOW' },
   { type: 'error', inputs: [], name: 'CFA_ZERO_ADDRESS_RECEIVER' },
   { type: 'error', inputs: [], name: 'CFA_ZERO_ADDRESS_SENDER' },
-  {
-    type: 'error',
-    inputs: [{ name: 'value', internalType: 'int256', type: 'int256' }],
-    name: 'SafeCastOverflowedIntToUint',
-  },
   { type: 'error', inputs: [], name: 'GDA_ADMIN_CANNOT_BE_POOL' },
   { type: 'error', inputs: [], name: 'GDA_CANNOT_CONNECT_POOL' },
   { type: 'error', inputs: [], name: 'GDA_DISTRIBUTE_FOR_OTHERS_NOT_ALLOWED' },
@@ -3814,6 +3814,11 @@ export const idaAbi = [
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_DOES_NOT_EXIST' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_IS_NOT_APPROVED' },
   { type: 'error', inputs: [], name: 'IDA_ZERO_ADDRESS_SUBSCRIBER' },
+  {
+    type: 'error',
+    inputs: [{ name: 'value', internalType: 'int256', type: 'int256' }],
+    name: 'SafeCastOverflowedIntToUint',
+  },
   {
     type: 'error',
     inputs: [
@@ -4650,20 +4655,12 @@ export const superTokenFactoryAbi = [
     ],
     stateMutability: 'nonpayable',
   },
-  { type: 'error', inputs: [], name: 'SUPER_TOKEN_FACTORY_ALREADY_EXISTS' },
-  { type: 'error', inputs: [], name: 'SUPER_TOKEN_FACTORY_DOES_NOT_EXIST' },
   {
     type: 'error',
     inputs: [],
     name: 'SUPER_TOKEN_FACTORY_NON_UPGRADEABLE_IS_DEPRECATED',
   },
-  {
-    type: 'error',
-    inputs: [],
-    name: 'SUPER_TOKEN_FACTORY_ONLY_GOVERNANCE_OWNER',
-  },
   { type: 'error', inputs: [], name: 'SUPER_TOKEN_FACTORY_ONLY_HOST' },
-  { type: 'error', inputs: [], name: 'SUPER_TOKEN_FACTORY_UNINITIALIZED' },
   { type: 'error', inputs: [], name: 'SUPER_TOKEN_FACTORY_ZERO_ADDRESS' },
   {
     type: 'event',
@@ -4768,33 +4765,6 @@ export const superTokenFactoryAbi = [
   {
     type: 'function',
     inputs: [
-      { name: '_underlyingToken', internalType: 'address', type: 'address' },
-    ],
-    name: 'computeCanonicalERC20WrapperAddress',
-    outputs: [
-      { name: 'superTokenAddress', internalType: 'address', type: 'address' },
-      { name: 'isDeployed', internalType: 'bool', type: 'bool' },
-    ],
-    stateMutability: 'view',
-  },
-  {
-    type: 'function',
-    inputs: [
-      {
-        name: '_underlyingToken',
-        internalType: 'contract IERC20Metadata',
-        type: 'address',
-      },
-    ],
-    name: 'createCanonicalERC20Wrapper',
-    outputs: [
-      { name: '', internalType: 'contract ISuperToken', type: 'address' },
-    ],
-    stateMutability: 'nonpayable',
-  },
-  {
-    type: 'function',
-    inputs: [
       {
         name: 'underlyingToken',
         internalType: 'contract IERC20Metadata',
@@ -4899,21 +4869,6 @@ export const superTokenFactoryAbi = [
       },
     ],
     stateMutability: 'nonpayable',
-  },
-  {
-    type: 'function',
-    inputs: [
-      {
-        name: '_underlyingTokenAddress',
-        internalType: 'address',
-        type: 'address',
-      },
-    ],
-    name: 'getCanonicalERC20Wrapper',
-    outputs: [
-      { name: 'superTokenAddress', internalType: 'address', type: 'address' },
-    ],
-    stateMutability: 'view',
   },
   {
     type: 'function',
@@ -4944,23 +4899,6 @@ export const superTokenFactoryAbi = [
     type: 'function',
     inputs: [],
     name: 'initialize',
-    outputs: [],
-    stateMutability: 'nonpayable',
-  },
-  {
-    type: 'function',
-    inputs: [
-      {
-        name: '_data',
-        internalType: 'struct SuperTokenFactoryBase.InitializeData[]',
-        type: 'tuple[]',
-        components: [
-          { name: 'underlyingToken', internalType: 'address', type: 'address' },
-          { name: 'superToken', internalType: 'address', type: 'address' },
-        ],
-      },
-    ],
-    name: 'initializeCanonicalWrapperSuperTokens',
     outputs: [],
     stateMutability: 'nonpayable',
   },
@@ -5078,6 +5016,19 @@ export const togaAbi = [
       { name: 'minBondDuration_', internalType: 'uint256', type: 'uint256' },
     ],
     stateMutability: 'nonpayable',
+  },
+  {
+    type: 'error',
+    inputs: [
+      { name: 'bits', internalType: 'uint8', type: 'uint8' },
+      { name: 'value', internalType: 'int256', type: 'int256' },
+    ],
+    name: 'SafeCastOverflowedIntDowncast',
+  },
+  {
+    type: 'error',
+    inputs: [{ name: 'value', internalType: 'int256', type: 'int256' }],
+    name: 'SafeCastOverflowedIntToUint',
   },
   {
     type: 'error',

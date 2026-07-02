@@ -3641,6 +3641,11 @@ export const hostAbi = [
   { type: 'error', inputs: [], name: 'SUPER_TOKEN_TRANSFER_TO_ZERO_ADDRESS' },
   {
     type: 'error',
+    inputs: [{ name: 'value', internalType: 'int256', type: 'int256' }],
+    name: 'SafeCastOverflowedIntToUint',
+  },
+  {
+    type: 'error',
     inputs: [{ name: 'value', internalType: 'uint256', type: 'uint256' }],
     name: 'SafeCastOverflowedUintToInt',
   },
@@ -3670,11 +3675,6 @@ export const hostAbi = [
   { type: 'error', inputs: [], name: 'CFA_NO_SELF_FLOW' },
   { type: 'error', inputs: [], name: 'CFA_ZERO_ADDRESS_RECEIVER' },
   { type: 'error', inputs: [], name: 'CFA_ZERO_ADDRESS_SENDER' },
-  {
-    type: 'error',
-    inputs: [{ name: 'value', internalType: 'int256', type: 'int256' }],
-    name: 'SafeCastOverflowedIntToUint',
-  },
   { type: 'error', inputs: [], name: 'GDA_ADMIN_CANNOT_BE_POOL' },
   { type: 'error', inputs: [], name: 'GDA_CANNOT_CONNECT_POOL' },
   { type: 'error', inputs: [], name: 'GDA_DISTRIBUTE_FOR_OTHERS_NOT_ALLOWED' },
@@ -3821,6 +3821,11 @@ export const idaAbi = [
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_DOES_NOT_EXIST' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_IS_NOT_APPROVED' },
   { type: 'error', inputs: [], name: 'IDA_ZERO_ADDRESS_SUBSCRIBER' },
+  {
+    type: 'error',
+    inputs: [{ name: 'value', internalType: 'int256', type: 'int256' }],
+    name: 'SafeCastOverflowedIntToUint',
+  },
   {
     type: 'error',
     inputs: [
@@ -4657,20 +4662,12 @@ export const superTokenFactoryAbi = [
     ],
     stateMutability: 'nonpayable',
   },
-  { type: 'error', inputs: [], name: 'SUPER_TOKEN_FACTORY_ALREADY_EXISTS' },
-  { type: 'error', inputs: [], name: 'SUPER_TOKEN_FACTORY_DOES_NOT_EXIST' },
   {
     type: 'error',
     inputs: [],
     name: 'SUPER_TOKEN_FACTORY_NON_UPGRADEABLE_IS_DEPRECATED',
   },
-  {
-    type: 'error',
-    inputs: [],
-    name: 'SUPER_TOKEN_FACTORY_ONLY_GOVERNANCE_OWNER',
-  },
   { type: 'error', inputs: [], name: 'SUPER_TOKEN_FACTORY_ONLY_HOST' },
-  { type: 'error', inputs: [], name: 'SUPER_TOKEN_FACTORY_UNINITIALIZED' },
   { type: 'error', inputs: [], name: 'SUPER_TOKEN_FACTORY_ZERO_ADDRESS' },
   {
     type: 'event',
@@ -4775,33 +4772,6 @@ export const superTokenFactoryAbi = [
   {
     type: 'function',
     inputs: [
-      { name: '_underlyingToken', internalType: 'address', type: 'address' },
-    ],
-    name: 'computeCanonicalERC20WrapperAddress',
-    outputs: [
-      { name: 'superTokenAddress', internalType: 'address', type: 'address' },
-      { name: 'isDeployed', internalType: 'bool', type: 'bool' },
-    ],
-    stateMutability: 'view',
-  },
-  {
-    type: 'function',
-    inputs: [
-      {
-        name: '_underlyingToken',
-        internalType: 'contract IERC20Metadata',
-        type: 'address',
-      },
-    ],
-    name: 'createCanonicalERC20Wrapper',
-    outputs: [
-      { name: '', internalType: 'contract ISuperToken', type: 'address' },
-    ],
-    stateMutability: 'nonpayable',
-  },
-  {
-    type: 'function',
-    inputs: [
       {
         name: 'underlyingToken',
         internalType: 'contract IERC20Metadata',
@@ -4906,21 +4876,6 @@ export const superTokenFactoryAbi = [
       },
     ],
     stateMutability: 'nonpayable',
-  },
-  {
-    type: 'function',
-    inputs: [
-      {
-        name: '_underlyingTokenAddress',
-        internalType: 'address',
-        type: 'address',
-      },
-    ],
-    name: 'getCanonicalERC20Wrapper',
-    outputs: [
-      { name: 'superTokenAddress', internalType: 'address', type: 'address' },
-    ],
-    stateMutability: 'view',
   },
   {
     type: 'function',
@@ -4951,23 +4906,6 @@ export const superTokenFactoryAbi = [
     type: 'function',
     inputs: [],
     name: 'initialize',
-    outputs: [],
-    stateMutability: 'nonpayable',
-  },
-  {
-    type: 'function',
-    inputs: [
-      {
-        name: '_data',
-        internalType: 'struct SuperTokenFactoryBase.InitializeData[]',
-        type: 'tuple[]',
-        components: [
-          { name: 'underlyingToken', internalType: 'address', type: 'address' },
-          { name: 'superToken', internalType: 'address', type: 'address' },
-        ],
-      },
-    ],
-    name: 'initializeCanonicalWrapperSuperTokens',
     outputs: [],
     stateMutability: 'nonpayable',
   },
@@ -5085,6 +5023,19 @@ export const togaAbi = [
       { name: 'minBondDuration_', internalType: 'uint256', type: 'uint256' },
     ],
     stateMutability: 'nonpayable',
+  },
+  {
+    type: 'error',
+    inputs: [
+      { name: 'bits', internalType: 'uint8', type: 'uint8' },
+      { name: 'value', internalType: 'int256', type: 'int256' },
+    ],
+    name: 'SafeCastOverflowedIntDowncast',
+  },
+  {
+    type: 'error',
+    inputs: [{ name: 'value', internalType: 'int256', type: 'int256' }],
+    name: 'SafeCastOverflowedIntToUint',
   },
   {
     type: 'error',
@@ -14563,60 +14514,6 @@ export const readSuperTokenFactorySuperTokenLogic =
   })
 
 /**
- * Wraps __{@link readContract}__ with `abi` set to __{@link superTokenFactoryAbi}__ and `functionName` set to `"computeCanonicalERC20WrapperAddress"`
- *
- * - [__View Contract on Ethereum Etherscan__](https://etherscan.io/address/0x0422689cc4087b6B7280e0a7e7F655200ec86Ae1)
- * - [__View Contract on Op Mainnet Optimism Explorer__](https://optimistic.etherscan.io/address/0x8276469A443D5C6B7146BED45e2abCaD3B6adad9)
- * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
- * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
- * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
- * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
- * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
- * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
- * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x1C92042426B6bAAe497bEf461B6d8342D03aEc92)
- * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x464AADdBB2B80f3Cb666522EB7381bE610F638b4)
- * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x7447E94Dfe3d804a9f46Bf12838d467c912C8F6C)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x87560833d59Be057aFc63cFFa3fc531589Ba428F)
- * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xacFBED2bC9344C158DD3dC229b84Bd7220e7c673)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x254C2e152E8602839D288A7bccdf3d0974597193)
- * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xfcF0489488397332579f35b0F711BE570Da0E8f5)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x184D999ea60e9b16fE4cCC1f756422114E9B663f)
- */
-export const readSuperTokenFactoryComputeCanonicalErc20WrapperAddress =
-  /*#__PURE__*/ createReadContract({
-    abi: superTokenFactoryAbi,
-    address: superTokenFactoryAddress,
-    functionName: 'computeCanonicalERC20WrapperAddress',
-  })
-
-/**
- * Wraps __{@link readContract}__ with `abi` set to __{@link superTokenFactoryAbi}__ and `functionName` set to `"getCanonicalERC20Wrapper"`
- *
- * - [__View Contract on Ethereum Etherscan__](https://etherscan.io/address/0x0422689cc4087b6B7280e0a7e7F655200ec86Ae1)
- * - [__View Contract on Op Mainnet Optimism Explorer__](https://optimistic.etherscan.io/address/0x8276469A443D5C6B7146BED45e2abCaD3B6adad9)
- * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
- * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
- * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
- * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
- * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
- * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
- * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x1C92042426B6bAAe497bEf461B6d8342D03aEc92)
- * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x464AADdBB2B80f3Cb666522EB7381bE610F638b4)
- * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x7447E94Dfe3d804a9f46Bf12838d467c912C8F6C)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x87560833d59Be057aFc63cFFa3fc531589Ba428F)
- * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xacFBED2bC9344C158DD3dC229b84Bd7220e7c673)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x254C2e152E8602839D288A7bccdf3d0974597193)
- * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xfcF0489488397332579f35b0F711BE570Da0E8f5)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x184D999ea60e9b16fE4cCC1f756422114E9B663f)
- */
-export const readSuperTokenFactoryGetCanonicalErc20Wrapper =
-  /*#__PURE__*/ createReadContract({
-    abi: superTokenFactoryAbi,
-    address: superTokenFactoryAddress,
-    functionName: 'getCanonicalERC20Wrapper',
-  })
-
-/**
  * Wraps __{@link readContract}__ with `abi` set to __{@link superTokenFactoryAbi}__ and `functionName` set to `"getCodeAddress"`
  *
  * - [__View Contract on Ethereum Etherscan__](https://etherscan.io/address/0x0422689cc4087b6B7280e0a7e7F655200ec86Ae1)
@@ -14777,33 +14674,6 @@ export const writeSuperTokenFactoryCastrate = /*#__PURE__*/ createWriteContract(
 )
 
 /**
- * Wraps __{@link writeContract}__ with `abi` set to __{@link superTokenFactoryAbi}__ and `functionName` set to `"createCanonicalERC20Wrapper"`
- *
- * - [__View Contract on Ethereum Etherscan__](https://etherscan.io/address/0x0422689cc4087b6B7280e0a7e7F655200ec86Ae1)
- * - [__View Contract on Op Mainnet Optimism Explorer__](https://optimistic.etherscan.io/address/0x8276469A443D5C6B7146BED45e2abCaD3B6adad9)
- * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
- * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
- * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
- * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
- * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
- * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
- * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x1C92042426B6bAAe497bEf461B6d8342D03aEc92)
- * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x464AADdBB2B80f3Cb666522EB7381bE610F638b4)
- * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x7447E94Dfe3d804a9f46Bf12838d467c912C8F6C)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x87560833d59Be057aFc63cFFa3fc531589Ba428F)
- * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xacFBED2bC9344C158DD3dC229b84Bd7220e7c673)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x254C2e152E8602839D288A7bccdf3d0974597193)
- * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xfcF0489488397332579f35b0F711BE570Da0E8f5)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x184D999ea60e9b16fE4cCC1f756422114E9B663f)
- */
-export const writeSuperTokenFactoryCreateCanonicalErc20Wrapper =
-  /*#__PURE__*/ createWriteContract({
-    abi: superTokenFactoryAbi,
-    address: superTokenFactoryAddress,
-    functionName: 'createCanonicalERC20Wrapper',
-  })
-
-/**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link superTokenFactoryAbi}__ and `functionName` set to `"createERC20Wrapper"`
  *
  * - [__View Contract on Ethereum Etherscan__](https://etherscan.io/address/0x0422689cc4087b6B7280e0a7e7F655200ec86Ae1)
@@ -14855,33 +14725,6 @@ export const writeSuperTokenFactoryInitialize =
     abi: superTokenFactoryAbi,
     address: superTokenFactoryAddress,
     functionName: 'initialize',
-  })
-
-/**
- * Wraps __{@link writeContract}__ with `abi` set to __{@link superTokenFactoryAbi}__ and `functionName` set to `"initializeCanonicalWrapperSuperTokens"`
- *
- * - [__View Contract on Ethereum Etherscan__](https://etherscan.io/address/0x0422689cc4087b6B7280e0a7e7F655200ec86Ae1)
- * - [__View Contract on Op Mainnet Optimism Explorer__](https://optimistic.etherscan.io/address/0x8276469A443D5C6B7146BED45e2abCaD3B6adad9)
- * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
- * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
- * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
- * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
- * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
- * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
- * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x1C92042426B6bAAe497bEf461B6d8342D03aEc92)
- * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x464AADdBB2B80f3Cb666522EB7381bE610F638b4)
- * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x7447E94Dfe3d804a9f46Bf12838d467c912C8F6C)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x87560833d59Be057aFc63cFFa3fc531589Ba428F)
- * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xacFBED2bC9344C158DD3dC229b84Bd7220e7c673)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x254C2e152E8602839D288A7bccdf3d0974597193)
- * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xfcF0489488397332579f35b0F711BE570Da0E8f5)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x184D999ea60e9b16fE4cCC1f756422114E9B663f)
- */
-export const writeSuperTokenFactoryInitializeCanonicalWrapperSuperTokens =
-  /*#__PURE__*/ createWriteContract({
-    abi: superTokenFactoryAbi,
-    address: superTokenFactoryAddress,
-    functionName: 'initializeCanonicalWrapperSuperTokens',
   })
 
 /**
@@ -14991,33 +14834,6 @@ export const simulateSuperTokenFactoryCastrate =
   })
 
 /**
- * Wraps __{@link simulateContract}__ with `abi` set to __{@link superTokenFactoryAbi}__ and `functionName` set to `"createCanonicalERC20Wrapper"`
- *
- * - [__View Contract on Ethereum Etherscan__](https://etherscan.io/address/0x0422689cc4087b6B7280e0a7e7F655200ec86Ae1)
- * - [__View Contract on Op Mainnet Optimism Explorer__](https://optimistic.etherscan.io/address/0x8276469A443D5C6B7146BED45e2abCaD3B6adad9)
- * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
- * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
- * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
- * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
- * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
- * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
- * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x1C92042426B6bAAe497bEf461B6d8342D03aEc92)
- * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x464AADdBB2B80f3Cb666522EB7381bE610F638b4)
- * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x7447E94Dfe3d804a9f46Bf12838d467c912C8F6C)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x87560833d59Be057aFc63cFFa3fc531589Ba428F)
- * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xacFBED2bC9344C158DD3dC229b84Bd7220e7c673)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x254C2e152E8602839D288A7bccdf3d0974597193)
- * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xfcF0489488397332579f35b0F711BE570Da0E8f5)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x184D999ea60e9b16fE4cCC1f756422114E9B663f)
- */
-export const simulateSuperTokenFactoryCreateCanonicalErc20Wrapper =
-  /*#__PURE__*/ createSimulateContract({
-    abi: superTokenFactoryAbi,
-    address: superTokenFactoryAddress,
-    functionName: 'createCanonicalERC20Wrapper',
-  })
-
-/**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link superTokenFactoryAbi}__ and `functionName` set to `"createERC20Wrapper"`
  *
  * - [__View Contract on Ethereum Etherscan__](https://etherscan.io/address/0x0422689cc4087b6B7280e0a7e7F655200ec86Ae1)
@@ -15069,33 +14885,6 @@ export const simulateSuperTokenFactoryInitialize =
     abi: superTokenFactoryAbi,
     address: superTokenFactoryAddress,
     functionName: 'initialize',
-  })
-
-/**
- * Wraps __{@link simulateContract}__ with `abi` set to __{@link superTokenFactoryAbi}__ and `functionName` set to `"initializeCanonicalWrapperSuperTokens"`
- *
- * - [__View Contract on Ethereum Etherscan__](https://etherscan.io/address/0x0422689cc4087b6B7280e0a7e7F655200ec86Ae1)
- * - [__View Contract on Op Mainnet Optimism Explorer__](https://optimistic.etherscan.io/address/0x8276469A443D5C6B7146BED45e2abCaD3B6adad9)
- * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
- * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
- * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
- * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
- * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
- * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
- * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x1C92042426B6bAAe497bEf461B6d8342D03aEc92)
- * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x464AADdBB2B80f3Cb666522EB7381bE610F638b4)
- * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x7447E94Dfe3d804a9f46Bf12838d467c912C8F6C)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x87560833d59Be057aFc63cFFa3fc531589Ba428F)
- * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xacFBED2bC9344C158DD3dC229b84Bd7220e7c673)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x254C2e152E8602839D288A7bccdf3d0974597193)
- * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xfcF0489488397332579f35b0F711BE570Da0E8f5)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x184D999ea60e9b16fE4cCC1f756422114E9B663f)
- */
-export const simulateSuperTokenFactoryInitializeCanonicalWrapperSuperTokens =
-  /*#__PURE__*/ createSimulateContract({
-    abi: superTokenFactoryAbi,
-    address: superTokenFactoryAddress,
-    functionName: 'initializeCanonicalWrapperSuperTokens',
   })
 
 /**
