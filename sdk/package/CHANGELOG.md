@@ -1,5 +1,19 @@
 # @sfpro/sdk
 
+## 0.2.3
+
+### Patch Changes
+
+- 852bbc6: Update `@superfluid-finance/ethereum-contracts` to 1.15.2 and regenerate ABIs, actions, and hooks.
+
+  The SuperTokenFactory canonical ERC20 wrapper API was removed upstream, so the following exports are gone:
+  - **Actions** (`@sfpro/sdk/action`): `readSuperTokenFactoryGetCanonicalErc20Wrapper`, `readSuperTokenFactoryComputeCanonicalErc20WrapperAddress`, `writeSuperTokenFactoryCreateCanonicalErc20Wrapper`, `writeSuperTokenFactoryInitializeCanonicalWrapperSuperTokens`, `simulateSuperTokenFactoryCreateCanonicalErc20Wrapper`, `simulateSuperTokenFactoryInitializeCanonicalWrapperSuperTokens`
+  - **Hooks** (`@sfpro/sdk/hook`): the six `use*` equivalents of the above.
+
+  `createERC20Wrapper` and all other SuperTokenFactory functions are unaffected. The regeneration also refreshes the OpenZeppelin SafeCast error signature (`SafeCastOverflowedIntToUint` → `SafeCastOverflowedIntDowncast`) inherited across several contracts, from the OZ v5.6.1 submodule bump.
+
+- 98b8429: Harden package publishing. Add a `files` allowlist so the tarball ships only `dist` (plus `package.json` and `LICENSE`) and no longer includes `src`, tests, configs, `.turbo`, or `.env.example`; add a `LICENSE` file (MIT); declare `engines.node` `>=18`; and add an `attw` + `publint` validation gate (`check:package`) to CI/release to lock the package's export and type-resolution contract. No API or runtime changes — the package remains ESM-only.
+
 ## 0.2.2
 
 ### Patch Changes
