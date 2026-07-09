@@ -362,6 +362,32 @@ export const PushEventSchema = z
 		description: "A single point event to push",
 	})
 
+// Event in a per-event batch (campaign is specified at root level only)
+export const BatchPerEventItemSchema = z
+	.object({
+		eventName: z.string().min(1).max(100).openapi({
+			example: "swap",
+			description: "Name of the event (1-100 characters)",
+		}),
+		account: EthereumAddressSchema.openapi({
+			example: "0x1234567890abcdef1234567890abcdef12345678",
+			description: "Ethereum address to award points to",
+		}),
+		points: z.number().int().openapi({
+			example: 100,
+			description:
+				"Points to award. Must be an integer. Negative values deduct points and the balance clamps at zero. Read the Negative Points section in the API overview before using negative values for recurring adjustments.",
+		}),
+		uniqueId: z.string().max(255).optional().openapi({
+			example: "tx-0xabc123",
+			description: "Unique identifier for deduplication (max 255 chars)",
+		}),
+	})
+	.openapi({
+		title: "BatchPerEventItem",
+		description: "Event in a batch with its own eventName",
+	})
+
 // Format 1: Single event (no events array)
 export const SingleEventRequestSchema = PushEventSchema.openapi({
 	title: "SingleEventRequest",
@@ -413,7 +439,7 @@ export const BatchWithPerEventRequestSchema = z
 			description:
 				"**Deprecated**: use `campaignId` instead. If provided, must match the API key's associated campaign.",
 		}),
-		events: z.array(PushEventSchema).min(1).max(1000).openapi({
+		events: z.array(BatchPerEventItemSchema).min(1).max(1000).openapi({
 			description: "Array of events with individual eventNames (1-1000 items)",
 		}),
 	})
