@@ -5,6 +5,8 @@ import {
 	BalanceBatchResponseSchema,
 	BalancePostBodySchema,
 	BalanceQuerySchema,
+	BatchWithDefaultsRequestSchema,
+	BatchWithPerEventRequestSchema,
 	CampaignAccountSchema,
 	CampaignAccountsQuerySchema,
 	CampaignAccountsResponseSchema,
@@ -18,6 +20,7 @@ import {
 	PointBalancesResponseSchema,
 	PointEventSchema,
 	PointEventsResponseSchema,
+	PushRequestBodySchema,
 	PushResponseSchema,
 	SignedBalanceBatchBodySchema,
 	SignedBalanceBatchResponseSchema,
@@ -43,13 +46,17 @@ pointsRegistry.register("CampaignAccount", CampaignAccountSchema)
 pointsRegistry.register("CampaignAccountsResponse", CampaignAccountsResponseSchema)
 pointsRegistry.register("CampaignMetadataResponse", CampaignMetadataResponseSchema)
 pointsRegistry.register("ApiError", ApiErrorSchema)
+pointsRegistry.register("SingleEventRequest", SingleEventRequestSchema)
+pointsRegistry.register("BatchWithDefaultsRequest", BatchWithDefaultsRequestSchema)
+pointsRegistry.register("BatchWithPerEventRequest", BatchWithPerEventRequestSchema)
+pointsRegistry.register("PushRequestBody", PushRequestBodySchema)
 
 // Register security scheme
 pointsRegistry.registerComponent("securitySchemes", "ApiKeyAuth", {
 	type: "apiKey",
 	in: "header",
 	name: "X-API-Key",
-	description: "API key for authentication. Format: sfp_ followed by 64 hexadecimal characters.",
+	description: "API key for authentication. Format: sfp_ followed by 64 lowercase hexadecimal characters.",
 })
 
 // ============================================
@@ -132,6 +139,7 @@ pointsRegistry.registerPath({
 					example: {
 						account: "0x1234567890abcdef1234567890abcdef12345678",
 						points: 1500,
+						cappedPoints: 1500,
 					},
 				},
 			},
@@ -194,8 +202,8 @@ pointsRegistry.registerPath({
 					schema: PointBalancesResponseSchema,
 					example: {
 						balances: [
-							{ account: "0x1234567890abcdef1234567890abcdef12345678", points: 1500 },
-							{ account: "0xabcdef1234567890abcdef1234567890abcdef12", points: 750 },
+							{ account: "0x1234567890abcdef1234567890abcdef12345678", points: 1500, cappedPoints: 1500 },
+							{ account: "0xabcdef1234567890abcdef1234567890abcdef12", points: 750, cappedPoints: 750 },
 						],
 					},
 				},
@@ -264,6 +272,7 @@ Missing campaigns return 0 points with a warning entry. The call never fails due
 						address: "0x1234567890abcdef1234567890abcdef12345678",
 						campaignIds: [1, 2, 3],
 						points: [100, 0, 300],
+						cappedPoints: [100, 0, 300],
 						warnings: [{ campaignId: 2, message: "Campaign not found" }],
 					},
 				},
@@ -461,6 +470,7 @@ This can be verified on-chain using ECDSA recovery.`,
 					example: {
 						address: "0x1234567890abcdef1234567890abcdef12345678",
 						points: 1500,
+						uncappedPoints: 1500,
 						signatureTimestamp: 1704672000,
 						signature:
 							"0x8afc2c13c4ed315fcff3f93e4be66815ef259042c789f7e30be2a6160a5fc70f1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef1c",
@@ -537,6 +547,7 @@ This produces a single signature that covers all campaigns, allowing batch verif
 						address: "0x1234567890abcdef1234567890abcdef12345678",
 						campaignIds: [1, 2, 3],
 						points: [100, 200, 300],
+						uncappedPoints: [100, 200, 300],
 						signatureTimestamp: 1704672000,
 						signature:
 							"0x8afc2c13c4ed315fcff3f93e4be66815ef259042c789f7e30be2a6160a5fc70f1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef1c",
@@ -554,10 +565,14 @@ This produces a single signature that covers all campaigns, allowing batch verif
 			},
 		},
 		404: {
-			description: "One or more campaigns not found",
+			description: "One or more campaigns not found (the `missing` field lists the campaign IDs that were not found)",
 			content: {
 				"application/json": {
 					schema: ApiErrorSchema,
+					example: {
+						message: "One or more campaigns not found",
+						missing: [2],
+					},
 				},
 			},
 		},
@@ -630,16 +645,18 @@ pointsRegistry.registerPath({
 	summary: "Push point events",
 	description: `Push one or more point events for processing. Events are processed asynchronously in the background.
 
+**Server-side use only:** This endpoint authenticates with a secret API key. Call it from your backend — never embed \`sfp_\` API keys in browser or mobile client code, where anyone can extract them.
+
 **Campaign Validation (Strongly Recommended):**
 
-Include the \`campaign\` field with the campaign ID to verify you're pushing to the correct campaign. If provided, it must match the API key's associated campaign or the request will be rejected with a 403 error.
+Include the \`campaignId\` field to verify you're pushing to the correct campaign. If provided, it must match the API key's associated campaign or the request will be rejected with a 403 error. (The \`campaign\` field is a deprecated alias.)
 
 **Request Formats:**
 
 1. **Single Event** - Push a single event directly:
 \`\`\`json
 {
-  "campaign": 42, // optional but strongly recommended
+  "campaignId": 42, // optional but strongly recommended
   "eventName": "swap",
   "account": "0x...",
   "points": 100,
@@ -650,7 +667,7 @@ Include the \`campaign\` field with the campaign ID to verify you're pushing to 
 2. **Batch with Shared eventName** - All events share the root eventName:
 \`\`\`json
 {
-  "campaign": 42, // optional but strongly recommended
+  "campaignId": 42, // optional but strongly recommended
   "eventName": "swap",
   "uniqueId": "batch-123", // optional, applied to all
   "events": [
@@ -663,7 +680,7 @@ Include the \`campaign\` field with the campaign ID to verify you're pushing to 
 3. **Batch with Per-Event eventNames** - Each event has its own eventName:
 \`\`\`json
 {
-  "campaign": 42, // optional but strongly recommended
+  "campaignId": 42, // optional but strongly recommended
   "events": [
     { "eventName": "swap", "account": "0x...", "points": 100 },
     { "eventName": "stake", "account": "0x...", "points": 200 }
@@ -679,12 +696,12 @@ Include the \`campaign\` field with the campaign ID to verify you're pushing to 
 			description: "Point event(s) to push",
 			content: {
 				"application/json": {
-					schema: SingleEventRequestSchema,
+					schema: PushRequestBodySchema,
 					examples: {
 						single: {
 							summary: "Single event",
 							value: {
-								campaign: 42,
+								campaignId: 42,
 								eventName: "swap",
 								account: "0x1234567890abcdef1234567890abcdef12345678",
 								points: 100,
@@ -694,7 +711,7 @@ Include the \`campaign\` field with the campaign ID to verify you're pushing to 
 						batchWithDefaults: {
 							summary: "Batch with shared eventName",
 							value: {
-								campaign: 42,
+								campaignId: 42,
 								eventName: "daily_login",
 								events: [
 									{ account: "0x1234567890abcdef1234567890abcdef12345678", points: 10 },
@@ -705,7 +722,7 @@ Include the \`campaign\` field with the campaign ID to verify you're pushing to 
 						batchPerEvent: {
 							summary: "Batch with per-event eventNames",
 							value: {
-								campaign: 42,
+								campaignId: 42,
 								events: [
 									{
 										eventName: "swap",
@@ -849,7 +866,7 @@ const { data: bulkData } = await client.POST('/points/balance', {
 // Push events (requires API key)
 const { data: pushResult } = await client.POST('/points/push', {
   headers: { 'X-API-Key': 'sfp_...' },
-  body: { campaign: 42, eventName: 'swap', account: '0x1234...', points: 100 }
+  body: { campaignId: 42, eventName: 'swap', account: '0x1234...', points: 100 }
 });
 \`\`\`
 
@@ -900,7 +917,7 @@ const { data: bulk } = await postPointsBalance({
 // Push events
 await postPointsPush({
   headers: { 'X-API-Key': 'sfp_...' },
-  body: { campaign: 42, eventName: 'swap', account: '0x1234...', points: 100 }
+  body: { campaignId: 42, eventName: 'swap', account: '0x1234...', points: 100 }
 });
 \`\`\`
 
@@ -931,10 +948,10 @@ npx @hey-api/openapi-ts -i https://cms.superfluid.pro/points/openapi.json \\
 
 **Query Endpoints** (\`/balance\`, \`/signed-balance\`, \`/events\`, \`/accounts\`): Public access, no authentication required. Use numeric \`campaignId\` as query parameter.
 
-**Push Endpoint** (\`/push\`): Requires API key in the \`X-API-Key\` header. API keys are scoped to a specific campaign.
+**Push Endpoint** (\`/push\`): Requires API key in the \`X-API-Key\` header. API keys are scoped to a specific campaign. This endpoint is intended for server-side use only — never embed API keys in browser or mobile client code.
 
 \`\`\`
-X-API-Key: sfp_<64 hex characters>
+X-API-Key: sfp_<64 lowercase hex characters>
 \`\`\`
 
 ### Rate Limits
@@ -993,7 +1010,7 @@ await stack.track('swap', {
 await client.POST('/points/push', {
   headers: { 'X-API-Key': 'sfp_...' },
   body: {
-    campaign: 42,  // recommended
+    campaignId: 42,  // recommended
     eventName: 'swap',
     account: '0x1234...',
     points: 100,
@@ -1085,6 +1102,12 @@ Existing on-chain contracts that verify Stack signatures will work with Superflu
 | Multi-campaign query | Signed only (\`getSignedPointsBatch\`) | Both signed and unsigned endpoints |
 
 ## Changelog
+
+### 2026-07-09
+
+- **Events endpoint error format fix**: The timestamp-validation errors on \`GET /points/events\` now return \`message\` as the primary error field, matching the rest of the API. A deprecated \`error\` field with the same text is included temporarily for backward compatibility and will be removed in the future.
+- **Push request documentation**: The OpenAPI request body for \`POST /points/push\` now documents all three accepted formats (single event, batch with shared eventName, batch with per-event eventNames) instead of only the single-event shape.
+- **Documentation fixes**: Response examples now include \`cappedPoints\`/\`uncappedPoints\`; examples prefer \`campaignId\` over the deprecated \`campaign\` field; the \`missing\` field on batch 404 responses is documented.
 
 ### 2026-03-26
 

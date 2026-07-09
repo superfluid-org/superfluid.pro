@@ -33,9 +33,20 @@ export const ApiErrorSchema = z
 			.openapi({
 				description: "Validation error details",
 			}),
-		invalid: z.array(z.string()).optional().openapi({
-			description: "List of invalid addresses",
-		}),
+		invalid: z
+			.array(z.unknown())
+			.optional()
+			.openapi({
+				description: "List of invalid values from the request (e.g. malformed addresses or campaign IDs)",
+				example: ["0xinvalid"],
+			}),
+		missing: z
+			.array(z.number())
+			.optional()
+			.openapi({
+				description: "Campaign IDs that were not found (returned by batch endpoints on 404)",
+				example: [2],
+			}),
 	})
 	.openapi({
 		title: "ApiError",
@@ -86,7 +97,8 @@ export const CampaignMetadataResponseSchema = z
 		}),
 		lastEventAt: z.string().nullable().openapi({
 			example: "2026-03-25T14:30:00.000Z",
-			description: "ISO 8601 timestamp of the most recent event, or null if no events",
+			description:
+				"ISO 8601 timestamp of the last balance update from a point-awarding event (set when the event was processed, not the event's own eventTime; informational events are excluded), or null if no events",
 		}),
 		createdAt: z.string().openapi({
 			example: "2026-01-15T10:00:00.000Z",
@@ -180,7 +192,7 @@ export const EventsQuerySchema = z
 			example: 42,
 			description: "Campaign ID",
 		}),
-		account: z.string().optional().openapi({
+		account: EthereumAddressSchema.optional().openapi({
 			example: "0x1234567890abcdef1234567890abcdef12345678",
 			description: "Filter by Ethereum address",
 		}),
@@ -191,18 +203,18 @@ export const EventsQuerySchema = z
 		startTime: z.string().optional().openapi({
 			example: "2024-03-23T00:00:00.000Z",
 			description:
-				"Filter events that occurred at or after this time. Accepts ISO 8601 (e.g., 2024-03-23T00:00:00.000Z) or Unix timestamp in seconds (e.g., 1711152000)",
+				"Filter events that occurred at or after this time. Accepts ISO 8601 (e.g., 2024-03-23T00:00:00.000Z), Unix timestamp in seconds (e.g., 1711152000), or any other JavaScript-Date-parseable string (e.g., 2024-03-23)",
 		}),
 		endTime: z.string().optional().openapi({
 			example: "2024-12-31T23:59:59.999Z",
 			description:
-				"Filter events that occurred at or before this time. Accepts ISO 8601 (e.g., 2024-12-31T23:59:59.999Z) or Unix timestamp in seconds (e.g., 1735689599)",
+				"Filter events that occurred at or before this time. Accepts ISO 8601 (e.g., 2024-12-31T23:59:59.999Z), Unix timestamp in seconds (e.g., 1735689599), or any other JavaScript-Date-parseable string (e.g., 2024-12-31)",
 		}),
-		limit: z.coerce.number().int().min(1).max(100).optional().openapi({
+		limit: z.coerce.number().int().min(1).max(100).optional().default(50).openapi({
 			example: 50,
 			description: "Number of results per page (1-100, default: 50)",
 		}),
-		page: z.coerce.number().int().positive().optional().openapi({
+		page: z.coerce.number().int().positive().optional().default(1).openapi({
 			example: 1,
 			description: "Page number (default: 1)",
 		}),
@@ -295,7 +307,7 @@ export const PointEventsResponseSchema = z
 // Single event in a batch (minimal - inherits eventName from root)
 export const BatchEventMinimalSchema = z
 	.object({
-		account: z.string().openapi({
+		account: EthereumAddressSchema.openapi({
 			example: "0x1234567890abcdef1234567890abcdef12345678",
 			description: "Ethereum address to award points to",
 		}),
@@ -325,7 +337,7 @@ export const PushEventSchema = z
 			example: "swap",
 			description: "Name of the event (1-100 characters)",
 		}),
-		account: z.string().openapi({
+		account: EthereumAddressSchema.openapi({
 			example: "0x1234567890abcdef1234567890abcdef12345678",
 			description: "Ethereum address to award points to",
 		}),
@@ -450,19 +462,19 @@ export const CampaignAccountsQuerySchema = z
 			example: 42,
 			description: "Campaign ID",
 		}),
-		orderBy: z.enum(["totalPoints", "eventCount", "lastEventAt"]).optional().openapi({
+		orderBy: z.enum(["totalPoints", "eventCount", "lastEventAt"]).optional().default("totalPoints").openapi({
 			example: "totalPoints",
 			description: "Field to order results by (default: totalPoints)",
 		}),
-		order: z.enum(["asc", "desc"]).optional().openapi({
+		order: z.enum(["asc", "desc"]).optional().default("desc").openapi({
 			example: "desc",
 			description: "Sort order (default: desc)",
 		}),
-		limit: z.coerce.number().int().min(1).max(100).optional().openapi({
+		limit: z.coerce.number().int().min(1).max(100).optional().default(50).openapi({
 			example: 50,
 			description: "Number of results per page (1-100, default: 50)",
 		}),
-		page: z.coerce.number().int().positive().optional().openapi({
+		page: z.coerce.number().int().positive().optional().default(1).openapi({
 			example: 1,
 			description: "Page number (default: 1)",
 		}),
@@ -488,7 +500,8 @@ export const CampaignAccountSchema = z
 		}),
 		lastEventAt: z.string().nullable().openapi({
 			example: "2026-01-15T12:00:00.000Z",
-			description: "ISO 8601 timestamp of the most recent event, or null if no events",
+			description:
+				"ISO 8601 timestamp of the last balance update from a point-awarding event (set when the event was processed, not the event's own eventTime; informational events are excluded), or null if no events",
 		}),
 	})
 	.openapi({

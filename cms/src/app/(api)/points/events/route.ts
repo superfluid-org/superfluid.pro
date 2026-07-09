@@ -98,6 +98,9 @@ export const GET = async (request: Request): Promise<Response> => {
 			if (!parsed) {
 				return Response.json(
 					{
+						message:
+							"Invalid startTime format. Use ISO 8601 (e.g., 2024-03-23T00:00:00.000Z) or Unix timestamp in seconds (e.g., 1711152000)",
+						// Deprecated: kept for backward compatibility, use `message` instead
 						error:
 							"Invalid startTime format. Use ISO 8601 (e.g., 2024-03-23T00:00:00.000Z) or Unix timestamp in seconds (e.g., 1711152000)",
 					},
@@ -112,6 +115,9 @@ export const GET = async (request: Request): Promise<Response> => {
 			if (!parsed) {
 				return Response.json(
 					{
+						message:
+							"Invalid endTime format. Use ISO 8601 (e.g., 2024-03-23T00:00:00.000Z) or Unix timestamp in seconds (e.g., 1711152000)",
+						// Deprecated: kept for backward compatibility, use `message` instead
 						error:
 							"Invalid endTime format. Use ISO 8601 (e.g., 2024-03-23T00:00:00.000Z) or Unix timestamp in seconds (e.g., 1711152000)",
 					},
@@ -122,7 +128,14 @@ export const GET = async (request: Request): Promise<Response> => {
 		}
 
 		if (startTime && endTime && startTime > endTime) {
-			return Response.json({ error: "startTime must be before or equal to endTime" }, { status: 400 })
+			return Response.json(
+				{
+					message: "startTime must be before or equal to endTime",
+					// Deprecated: kept for backward compatibility, use `message` instead
+					error: "startTime must be before or equal to endTime",
+				},
+				{ status: 400 },
+			)
 		}
 
 		// Validate account if provided
