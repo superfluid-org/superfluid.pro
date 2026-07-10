@@ -5,6 +5,8 @@ import {
 	BalanceBatchResponseSchema,
 	BalancePostBodySchema,
 	BalanceQuerySchema,
+	BatchWithDefaultsRequestSchema,
+	BatchWithPerEventRequestSchema,
 	CampaignAccountSchema,
 	CampaignAccountsQuerySchema,
 	CampaignAccountsResponseSchema,
@@ -18,6 +20,7 @@ import {
 	PointBalancesResponseSchema,
 	PointEventSchema,
 	PointEventsResponseSchema,
+	PushRequestBodySchema,
 	PushResponseSchema,
 	SignedBalanceBatchBodySchema,
 	SignedBalanceBatchResponseSchema,
@@ -43,13 +46,18 @@ pointsRegistry.register("CampaignAccount", CampaignAccountSchema)
 pointsRegistry.register("CampaignAccountsResponse", CampaignAccountsResponseSchema)
 pointsRegistry.register("CampaignMetadataResponse", CampaignMetadataResponseSchema)
 pointsRegistry.register("ApiError", ApiErrorSchema)
+pointsRegistry.register("SingleEventRequest", SingleEventRequestSchema)
+pointsRegistry.register("BatchWithDefaultsRequest", BatchWithDefaultsRequestSchema)
+pointsRegistry.register("BatchWithPerEventRequest", BatchWithPerEventRequestSchema)
+pointsRegistry.register("PushRequestBody", PushRequestBodySchema)
 
 // Register security scheme
 pointsRegistry.registerComponent("securitySchemes", "ApiKeyAuth", {
 	type: "apiKey",
 	in: "header",
 	name: "X-API-Key",
-	description: "API key for authentication. Format: sfp_ followed by 64 hexadecimal characters.",
+	description:
+		"Send the API key in the `X-API-Key` header. Format: `sfp_` followed by 64 lowercase hexadecimal characters.",
 })
 
 // ============================================
@@ -132,6 +140,7 @@ pointsRegistry.registerPath({
 					example: {
 						account: "0x1234567890abcdef1234567890abcdef12345678",
 						points: 1500,
+						cappedPoints: 1500,
 					},
 				},
 			},
@@ -194,8 +203,8 @@ pointsRegistry.registerPath({
 					schema: PointBalancesResponseSchema,
 					example: {
 						balances: [
-							{ account: "0x1234567890abcdef1234567890abcdef12345678", points: 1500 },
-							{ account: "0xabcdef1234567890abcdef1234567890abcdef12", points: 750 },
+							{ account: "0x1234567890abcdef1234567890abcdef12345678", points: 1500, cappedPoints: 1500 },
+							{ account: "0xabcdef1234567890abcdef1234567890abcdef12", points: 750, cappedPoints: 750 },
 						],
 					},
 				},
@@ -238,7 +247,7 @@ pointsRegistry.registerPath({
 	description: `Retrieves point balances for a single account across multiple campaigns (up to 50).
 
 **Missing Campaign Handling:**
-Missing campaigns return 0 points with a warning entry. The call never fails due to missing campaigns - only for validation errors.`,
+Missing campaigns return 0 points and a warning entry. The request only fails on validation errors, never because a campaign is missing.`,
 	tags: ["Balance"],
 	request: {
 		body: {
@@ -264,6 +273,7 @@ Missing campaigns return 0 points with a warning entry. The call never fails due
 						address: "0x1234567890abcdef1234567890abcdef12345678",
 						campaignIds: [1, 2, 3],
 						points: [100, 0, 300],
+						cappedPoints: [100, 0, 300],
 						warnings: [{ campaignId: 2, message: "Campaign not found" }],
 					},
 				},
@@ -301,7 +311,7 @@ pointsRegistry.registerPath({
 
 **Without account filter:** Returns the sum of points across all accounts for that event type.
 
-This endpoint queries the raw point events and aggregates on-demand, unlike \`/balance\` which uses pre-aggregated balances.`,
+This endpoint queries the raw point events and aggregates them on demand, unlike \`/points/balance\`, which uses pre-aggregated balances.`,
 	tags: ["Balance"],
 	request: {
 		query: EventBalanceQuerySchema,
@@ -367,7 +377,7 @@ pointsRegistry.registerPath({
 	path: "/points/accounts",
 	summary: "Get campaign accounts (leaderboard)",
 	description:
-		"Retrieves all accounts in a campaign with their point balances, event counts, and last event timestamps. Results are paginated and sortable, making this ideal for building leaderboard views.",
+		"Retrieves all accounts in a campaign with their point balances, event counts, and last event timestamps. Results are paginated and sortable. Use this endpoint to build leaderboard views.",
 	tags: ["Balance"],
 	request: {
 		query: CampaignAccountsQuerySchema,
@@ -444,10 +454,12 @@ pointsRegistry.registerPath({
 **Signature Structure:**
 The message hash is computed as:
 \`\`\`
-keccak256(encodePacked([address, points, campaignId, timestamp]))
+keccak256(encodePacked(["address", "uint256", "uint256", "uint256"], [address, points, campaignId, timestamp]))
 \`\`\`
 
-This can be verified on-chain using ECDSA recovery.`,
+This can be verified on-chain using ECDSA recovery.
+
+On-chain claim functions that verify these signatures are typically permissionless, so the claim transaction can be submitted on behalf of the account. This is useful when you need a negative point adjustment to take effect on-chain (see the "Negative Points" section in the API overview).`,
 	tags: ["Signed Balance"],
 	request: {
 		query: SignedBalanceQuerySchema,
@@ -461,7 +473,8 @@ This can be verified on-chain using ECDSA recovery.`,
 					example: {
 						address: "0x1234567890abcdef1234567890abcdef12345678",
 						points: 1500,
-						signatureTimestamp: 1704672000,
+						uncappedPoints: 1500,
+						signatureTimestamp: 1767744000,
 						signature:
 							"0x8afc2c13c4ed315fcff3f93e4be66815ef259042c789f7e30be2a6160a5fc70f1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef1c",
 						signer: "0xBc2cfCd4c615Ff1d06f1d07b37E3652b15bd40A2",
@@ -508,10 +521,12 @@ pointsRegistry.registerPath({
 **Signature Structure:**
 The message hash is computed as:
 \`\`\`
-keccak256(encodePacked([address, uint256[] points, uint256[] campaignIds, uint256 timestamp]))
+keccak256(encodePacked(["address", "uint256[]", "uint256[]", "uint256"], [address, points, campaignIds, timestamp]))
 \`\`\`
 
-This produces a single signature that covers all campaigns, allowing batch verification on-chain.`,
+This produces a single signature that covers all campaigns, allowing batch verification on-chain.
+
+On-chain claim functions that verify these signatures are typically permissionless, so the claim transaction can be submitted on behalf of the account. This is useful when you need a negative point adjustment to take effect on-chain (see the "Negative Points" section in the API overview).`,
 	tags: ["Signed Balance"],
 	request: {
 		body: {
@@ -537,7 +552,8 @@ This produces a single signature that covers all campaigns, allowing batch verif
 						address: "0x1234567890abcdef1234567890abcdef12345678",
 						campaignIds: [1, 2, 3],
 						points: [100, 200, 300],
-						signatureTimestamp: 1704672000,
+						uncappedPoints: [100, 200, 300],
+						signatureTimestamp: 1767744000,
 						signature:
 							"0x8afc2c13c4ed315fcff3f93e4be66815ef259042c789f7e30be2a6160a5fc70f1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef1c",
 						signer: "0xBc2cfCd4c615Ff1d06f1d07b37E3652b15bd40A2",
@@ -554,10 +570,14 @@ This produces a single signature that covers all campaigns, allowing batch verif
 			},
 		},
 		404: {
-			description: "One or more campaigns not found",
+			description: "One or more campaigns not found (the `missing` field lists the campaign IDs that were not found)",
 			content: {
 				"application/json": {
 					schema: ApiErrorSchema,
+					example: {
+						message: "One or more campaigns not found",
+						missing: [2],
+					},
 				},
 			},
 		},
@@ -630,48 +650,54 @@ pointsRegistry.registerPath({
 	summary: "Push point events",
 	description: `Push one or more point events for processing. Events are processed asynchronously in the background.
 
+**Server-side use only:** This endpoint authenticates with a secret API key. Call it from your backend. Never embed \`sfp_\` API keys in browser or mobile client code, where anyone can extract them.
+
 **Campaign Validation (Strongly Recommended):**
 
-Include the \`campaign\` field with the campaign ID to verify you're pushing to the correct campaign. If provided, it must match the API key's associated campaign or the request will be rejected with a 403 error.
+Include the \`campaignId\` field to verify you're pushing to the correct campaign. If provided, it must match the API key's associated campaign or the request will be rejected with a 403 error. (The \`campaign\` field is a deprecated alias.)
 
 **Request Formats:**
 
-1. **Single Event** - Push a single event directly:
+In all three formats, \`campaignId\` is optional but strongly recommended, and \`uniqueId\` is optional.
+
+1. **Single Event**: a single event object.
 \`\`\`json
 {
-  "campaign": 42, // optional but strongly recommended
+  "campaignId": 42,
   "eventName": "swap",
-  "account": "0x...",
+  "account": "0x1234567890abcdef1234567890abcdef12345678",
   "points": 100,
-  "uniqueId": "tx-0xabc" // optional
+  "uniqueId": "tx-0xabc"
 }
 \`\`\`
 
-2. **Batch with Shared eventName** - All events share the root eventName:
+2. **Batch with Shared eventName**: all events share the root \`eventName\`, and a root \`uniqueId\` applies to every event.
 \`\`\`json
 {
-  "campaign": 42, // optional but strongly recommended
+  "campaignId": 42,
   "eventName": "swap",
-  "uniqueId": "batch-123", // optional, applied to all
+  "uniqueId": "batch-123",
   "events": [
-    { "account": "0x...", "points": 100 },
-    { "account": "0x...", "points": 50 }
+    { "account": "0x1234567890abcdef1234567890abcdef12345678", "points": 100 },
+    { "account": "0xabcdef1234567890abcdef1234567890abcdef12", "points": 50 }
   ]
 }
 \`\`\`
 
-3. **Batch with Per-Event eventNames** - Each event has its own eventName:
+3. **Batch with Per-Event eventNames**: each event has its own \`eventName\`.
 \`\`\`json
 {
-  "campaign": 42, // optional but strongly recommended
+  "campaignId": 42,
   "events": [
-    { "eventName": "swap", "account": "0x...", "points": 100 },
-    { "eventName": "stake", "account": "0x...", "points": 200 }
+    { "eventName": "swap", "account": "0x1234567890abcdef1234567890abcdef12345678", "points": 100 },
+    { "eventName": "stake", "account": "0xabcdef1234567890abcdef1234567890abcdef12", "points": 200 }
   ]
 }
 \`\`\`
 
-**Deduplication:** If \`uniqueId\` is provided, duplicate events (same campaign + account + uniqueId) will be skipped.`,
+**Deduplication:** If \`uniqueId\` is provided, duplicate events (same campaign + account + uniqueId) will be skipped.
+
+**Negative Points:** Negative \`points\` values are accepted and deduct from the account's balance, which never goes below zero. Before using negative values for recurring adjustments such as daily point distributions, read the "Negative Points" section in the API overview. Users may skip re-claiming a reduced balance on-chain and keep their previous flow rate, so you may need to submit the claim transaction on their behalf.`,
 	tags: ["Push"],
 	security: [{ ApiKeyAuth: [] }],
 	request: {
@@ -679,12 +705,12 @@ Include the \`campaign\` field with the campaign ID to verify you're pushing to 
 			description: "Point event(s) to push",
 			content: {
 				"application/json": {
-					schema: SingleEventRequestSchema,
+					schema: PushRequestBodySchema,
 					examples: {
 						single: {
 							summary: "Single event",
 							value: {
-								campaign: 42,
+								campaignId: 42,
 								eventName: "swap",
 								account: "0x1234567890abcdef1234567890abcdef12345678",
 								points: 100,
@@ -694,7 +720,7 @@ Include the \`campaign\` field with the campaign ID to verify you're pushing to 
 						batchWithDefaults: {
 							summary: "Batch with shared eventName",
 							value: {
-								campaign: 42,
+								campaignId: 42,
 								eventName: "daily_login",
 								events: [
 									{ account: "0x1234567890abcdef1234567890abcdef12345678", points: 10 },
@@ -705,7 +731,7 @@ Include the \`campaign\` field with the campaign ID to verify you're pushing to 
 						batchPerEvent: {
 							summary: "Batch with per-event eventNames",
 							value: {
-								campaign: 42,
+								campaignId: 42,
 								events: [
 									{
 										eventName: "swap",
@@ -791,6 +817,45 @@ export function generatePointsOpenApiDocument() {
 
 The Superfluid Points API enables you to build point-based reward campaigns. Track user actions, query balances, and generate signed proofs for on-chain verification.
 
+## API Basics
+
+### Authentication
+
+**Query Endpoints** (\`/points/balance\`, \`/points/signed-balance\`, \`/points/events\`, \`/points/accounts\`): Public access, no authentication required. Pass the numeric \`campaignId\` as a query parameter.
+
+**Push Endpoint** (\`/points/push\`): Requires an API key in the \`X-API-Key\` header. API keys are scoped to a specific campaign. This endpoint is intended for server-side use only. Never embed API keys in browser or mobile client code.
+
+\`\`\`
+X-API-Key: sfp_<64 lowercase hex characters>
+\`\`\`
+
+### Request Limits
+
+- Push endpoint: max 1000 events per request
+- Query endpoints: max 100 results per page
+
+### Deduplication
+
+Events can include a \`uniqueId\` field for deduplication. If an event with the same \`uniqueId\` already exists for the same account and campaign, it will be skipped.
+
+### Negative Points
+
+Point amounts may be negative to deduct points. An account's stored balance never goes below zero.
+
+> **Caution:** Claiming points on-chain is user-initiated. The user fetches a signed balance and submits it in an on-chain transaction, which typically updates their distribution-pool units and, through them, their flow rate. If you reduce a balance with negative points, nothing forces the user to re-claim. By not claiming again, they keep the flow rate based on their previously claimed, higher balance. For this reason, negative points are not recommended for recurring adjustments such as daily point distributions.
+
+**Mitigation:** The on-chain claim function verifies the API's signature and is permissionless: any caller may submit it for any account. To make a negative adjustment take effect on-chain, fetch the account's signed balance and submit the claim transaction on the user's behalf.
+
+### Points Cap
+
+Accounts can be marked as **capped** on a per-campaign basis. When an account is capped:
+
+- Balance endpoints return \`cappedPoints: 1\` (regardless of the actual balance)
+- Signed balance endpoints return \`points: 1\` and \`uncappedPoints\` with the true balance
+- The \`points\` field in unsigned balance responses is unaffected (always the true balance)
+
+The cap is a boolean flag managed via the admin panel on individual point balance records. It is not applied automatically.
+
 ## TypeScript Clients
 
 Generate a type-safe TypeScript client from this OpenAPI specification. Choose between two approaches:
@@ -804,10 +869,9 @@ Generate a type-safe TypeScript client from this OpenAPI specification. Choose b
 
 A lightweight fetch wrapper with full TypeScript inference. Recommended for most integrations.
 
-**Why choose this?**
-- Follows [semver](https://semver.org/) - safe for production
-- Minimal bundle size (~5kb)
-- Uses native fetch - works everywhere
+- Follows [semver](https://semver.org/), safe for production
+- Small bundle size (~5 kB)
+- Uses native fetch, works in any runtime
 - Maintained by [openapi-ts](https://openapi-ts.dev/)
 
 **Installation**
@@ -849,7 +913,7 @@ const { data: bulkData } = await client.POST('/points/balance', {
 // Push events (requires API key)
 const { data: pushResult } = await client.POST('/points/push', {
   headers: { 'X-API-Key': 'sfp_...' },
-  body: { campaign: 42, eventName: 'swap', account: '0x1234...', points: 100 }
+  body: { campaignId: 42, eventName: 'swap', account: '0x1234...', points: 100 }
 });
 \`\`\`
 
@@ -861,13 +925,11 @@ const { data: pushResult } = await client.POST('/points/push', {
 
 ### hey-api
 
-A full SDK generator with optional plugins for React Query, Zod validation, and more.
+A full SDK generator with optional plugins (React Query, Zod validation, and others).
 
-**Why choose this?**
-- Generates complete SDK with typed functions
-- Plugin ecosystem (React Query, Zod, etc.)
+- Generates a complete SDK with typed functions
+- Plugin ecosystem (React Query, Zod, and others)
 - No runtime dependency for basic usage
-- Highly configurable
 
 > **Warning:** hey-api does not follow semver. Pin exact versions in production (e.g., \`@hey-api/openapi-ts@0.61.2\`).
 
@@ -900,13 +962,13 @@ const { data: bulk } = await postPointsBalance({
 // Push events
 await postPointsPush({
   headers: { 'X-API-Key': 'sfp_...' },
-  body: { campaign: 42, eventName: 'swap', account: '0x1234...', points: 100 }
+  body: { campaignId: 42, eventName: 'swap', account: '0x1234...', points: 100 }
 });
 \`\`\`
 
 **Plugins**
 
-Add [plugins](https://heyapi.dev/openapi-ts/plugins) for enhanced functionality:
+Add [plugins](https://heyapi.dev/openapi-ts/plugins) as needed:
 
 \`\`\`bash
 # With React Query
@@ -924,37 +986,6 @@ npx @hey-api/openapi-ts -i https://cms.superfluid.pro/points/openapi.json \\
 
 - [Documentation](https://heyapi.dev/)
 - [@hey-api/openapi-ts on npm](https://www.npmjs.com/package/@hey-api/openapi-ts)
-
-## API Basics
-
-### Authentication
-
-**Query Endpoints** (\`/balance\`, \`/signed-balance\`, \`/events\`, \`/accounts\`): Public access, no authentication required. Use numeric \`campaignId\` as query parameter.
-
-**Push Endpoint** (\`/push\`): Requires API key in the \`X-API-Key\` header. API keys are scoped to a specific campaign.
-
-\`\`\`
-X-API-Key: sfp_<64 hex characters>
-\`\`\`
-
-### Rate Limits
-
-- Push endpoint: Max 1000 events per request
-- Query endpoints: Max 100 results per page
-
-### Deduplication
-
-Events can include a \`uniqueId\` field for deduplication. If an event with the same \`uniqueId\` already exists for the same account and campaign, it will be skipped.
-
-### Points Cap
-
-Accounts can be marked as **capped** on a per-campaign basis. When an account is capped:
-
-- Balance endpoints return \`cappedPoints: 1\` (regardless of the actual balance)
-- Signed balance endpoints return \`points: 1\` and \`uncappedPoints\` with the true balance
-- The \`points\` field in unsigned balance responses is unaffected (always the true balance)
-
-The cap is a boolean flag managed via the admin panel on individual point balance records. It is not applied automatically.
 
 ## Migrating from Stack
 
@@ -993,7 +1024,7 @@ await stack.track('swap', {
 await client.POST('/points/push', {
   headers: { 'X-API-Key': 'sfp_...' },
   body: {
-    campaign: 42,  // recommended
+    campaignId: 42,  // recommended
     eventName: 'swap',
     account: '0x1234...',
     points: 100,
@@ -1068,8 +1099,8 @@ const { data: batch } = await client.POST('/points/signed-balance-batch', {
 ### Signature Compatibility
 
 Both APIs use the same signature format for on-chain verification:
-- **Single:** \`keccak256(encodePacked(address, points, campaignId, timestamp))\`
-- **Batch:** \`keccak256(encodePacked(address, points[], campaigns[], timestamp))\`
+- **Single:** \`keccak256(encodePacked(["address", "uint256", "uint256", "uint256"], [address, points, campaignId, timestamp]))\`
+- **Batch:** \`keccak256(encodePacked(["address", "uint256[]", "uint256[]", "uint256"], [address, points, campaignIds, timestamp]))\`
 
 Existing on-chain contracts that verify Stack signatures will work with Superfluid signatures.
 
@@ -1085,6 +1116,14 @@ Existing on-chain contracts that verify Stack signatures will work with Superflu
 | Multi-campaign query | Signed only (\`getSignedPointsBatch\`) | Both signed and unsigned endpoints |
 
 ## Changelog
+
+### 2026-07-09
+
+- **Negative points documentation**: Documented negative point semantics (balances clamp at zero), the caveat that users may not re-claim a reduced balance on-chain, and the permissionless claim-on-behalf mitigation. See the "Negative Points" section under API Basics.
+- **Documentation editing pass**: Reworded and reorganized the embedded documentation. API Basics now appears before the TypeScript client guide, the request-size limits section is named "Request Limits" instead of "Rate Limits", signature formats are shown with their exact type encoding, and JSON examples are valid JSON.
+- **Events endpoint error format fix**: The timestamp-validation errors on \`GET /points/events\` now return \`message\` as the primary error field, matching the rest of the API. A deprecated \`error\` field with the same text is included temporarily for backward compatibility and will be removed in a future release.
+- **Push request documentation**: The OpenAPI request body for \`POST /points/push\` now documents all three accepted formats (single event, batch with shared eventName, batch with per-event eventNames) instead of only the single-event shape. Events in a per-event batch no longer advertise \`campaignId\`/\`campaign\` fields; the campaign is specified at the root level only (per-event campaign fields were never acted on).
+- **Documentation fixes**: Response examples now include \`cappedPoints\`/\`uncappedPoints\`; examples prefer \`campaignId\` over the deprecated \`campaign\` field; the \`missing\` field on batch 404 responses is documented.
 
 ### 2026-03-26
 
@@ -1120,7 +1159,7 @@ Existing on-chain contracts that verify Stack signatures will work with Superflu
 		servers: [
 			{
 				url: "",
-				description: "Current server",
+				description: "Same origin as this OpenAPI document",
 			},
 		],
 		tags: [
