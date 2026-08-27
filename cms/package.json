@@ -14,7 +14,7 @@
 		"generate:importmap": "cross-env NODE_OPTIONS=--no-deprecation payload generate:importmap",
 		"generate:types": "cross-env NODE_OPTIONS=--no-deprecation payload generate:types",
 		"generate:db-schema": "cross-env NODE_OPTIONS=--no-deprecation payload generate:db-schema && mv src/payload-generated-schema.ts src/payload-drizzle-schema.ts",
-		"generate:subgraph": "graphclient build --dir ./src/subgraph-protocol/",
+		"generate:subgraph": "graphclient build --dir ./src/subgraph-protocol/ ",
 		"lint": "cross-env NODE_OPTIONS=--no-deprecation biome check .",
 		"payload": "cross-env NODE_OPTIONS=--no-deprecation payload",
 		"start": "cross-env NODE_OPTIONS=--no-deprecation next start",
