@@ -13,7 +13,7 @@
 	"dependencies": {
 		"@modelcontextprotocol/sdk": "^1.29.0",
 		"@sfpro/sdk": "workspace:*",
-		"@superfluid-finance/metadata": "^1.6.2",
+		"@superfluid-finance/metadata": "^1.6.4",
 		"@superfluid-finance/tokenlist": "^5.41.0",
 		"@vercel/mcp-adapter": "^1.0.0",
 		"fuse.js": "^7.4.2",

@@ -25,7 +25,7 @@
 	"dependencies": {
 		"@asteasolutions/zod-to-openapi": "^7.3.4",
 		"@coingecko/coingecko-typescript": "^2.5.0",
-		"@superfluid-finance/metadata": "^1.6.2",
+		"@superfluid-finance/metadata": "^1.6.4",
 		"@superfluid-finance/tokenlist": "^5.41.0",
 		"@trigger.dev/sdk": "^4.4.6",
 		"@vercel/blob": "^2.4.0",

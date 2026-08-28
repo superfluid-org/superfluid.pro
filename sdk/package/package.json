@@ -115,7 +115,7 @@
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.18.4",
 		"@superfluid-finance/ethereum-contracts": "^1.15.2",
-		"@superfluid-finance/metadata": "^1.6.3",
+		"@superfluid-finance/metadata": "^1.6.4",
 		"@types/node": "^24.13.1",
 		"@wagmi/cli": "^2.10.0",
 		"dotenv": "^17.4.2",
