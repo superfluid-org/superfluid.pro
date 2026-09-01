@@ -19,7 +19,7 @@ export async function syncChains() {
 		const chainData: ChainData = {
 			id: network.chainId,
 			canonicalName: network.name,
-			isDeprecated: network.isDeprecated,
+			isDeprecated: network.isDeprecated ?? false,
 			isTestnet: network.isTestnet,
 			shortName: network.shortName,
 			uppercaseName: network.uppercaseName,
