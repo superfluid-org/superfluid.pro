@@ -66,9 +66,9 @@ export async function syncChains() {
 				hostedEndpoint: network.subgraphV1.hostedEndpoint || null,
 			},
 			// Transform string arrays to object arrays
-			publicRPCs: network.publicRPCs?.map((url) => ({ url })) || null,
+			publicRPCs: network.publicRPCs?.map((url) => ({ url })) ?? [],
 			coinGeckoId: network.coinGeckoId || null,
-			trustedForwarders: network.trustedForwarders?.map((address) => ({ address })) || null,
+			trustedForwarders: network.trustedForwarders?.map((address) => ({ address })) ?? [],
 		}
 
 		try {
