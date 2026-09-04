@@ -21,11 +21,10 @@ import {
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  */
 export const blindMacroForwarderAbi = [
   {
@@ -285,11 +284,10 @@ export const blindMacroForwarderAbi = [
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  */
 export const blindMacroForwarderAddress = {
   1: '0xFD0268E33111565dE546af2675351A4b1587F89F',
@@ -303,11 +301,10 @@ export const blindMacroForwarderAddress = {
   43113: '0xFD0268E33111565dE546af2675351A4b1587F89F',
   43114: '0xFD0268E33111565dE546af2675351A4b1587F89F',
   84532: '0xFD0268E33111565dE546af2675351A4b1587F89F',
-  534351: '0xFD0268E33111565dE546af2675351A4b1587F89F',
   534352: '0xFD0268E33111565dE546af2675351A4b1587F89F',
+  5042002: '0xFD0268E33111565dE546af2675351A4b1587F89F',
   11155111: '0xFD0268E33111565dE546af2675351A4b1587F89F',
   11155420: '0xFD0268E33111565dE546af2675351A4b1587F89F',
-  666666666: '0xFD0268E33111565dE546af2675351A4b1587F89F',
 } as const
 
 /**
@@ -322,11 +319,10 @@ export const blindMacroForwarderAddress = {
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  */
 export const blindMacroForwarderConfig = {
   address: blindMacroForwarderAddress,
@@ -349,11 +345,10 @@ export const blindMacroForwarderConfig = {
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const cfaForwarderAbi = [
   {
@@ -646,11 +641,10 @@ export const cfaForwarderAbi = [
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const cfaForwarderAddress = {
   1: '0xcfA132E353cB4E398080B9700609bb008eceB125',
@@ -664,11 +658,10 @@ export const cfaForwarderAddress = {
   43113: '0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D',
   43114: '0xcfA132E353cB4E398080B9700609bb008eceB125',
   84532: '0xcfA132E353cB4E398080B9700609bb008eceB125',
-  534351: '0xcfA132E353cB4E398080B9700609bb008eceB125',
   534352: '0xcfA132E353cB4E398080B9700609bb008eceB125',
+  5042002: '0xcfA132E353cB4E398080B9700609bb008eceB125',
   11155111: '0xcfA132E353cB4E398080B9700609bb008eceB125',
   11155420: '0xcfA132E353cB4E398080B9700609bb008eceB125',
-  666666666: '0xcfA132E353cB4E398080B9700609bb008eceB125',
 } as const
 
 /**
@@ -683,11 +676,10 @@ export const cfaForwarderAddress = {
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const cfaForwarderConfig = {
   address: cfaForwarderAddress,
@@ -710,11 +702,10 @@ export const cfaForwarderConfig = {
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const clearMacroForwarderAbi = [
   {
@@ -1211,11 +1202,10 @@ export const clearMacroForwarderAbi = [
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const clearMacroForwarderAddress = {
   1: '0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e',
@@ -1229,11 +1219,10 @@ export const clearMacroForwarderAddress = {
   43113: '0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e',
   43114: '0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e',
   84532: '0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e',
-  534351: '0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e',
   534352: '0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e',
+  5042002: '0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e',
   11155111: '0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e',
   11155420: '0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e',
-  666666666: '0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e',
 } as const
 
 /**
@@ -1248,11 +1237,10 @@ export const clearMacroForwarderAddress = {
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const clearMacroForwarderConfig = {
   address: clearMacroForwarderAddress,
@@ -1275,11 +1263,10 @@ export const clearMacroForwarderConfig = {
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const gdaForwarderAbi = [
   {
@@ -1682,11 +1669,10 @@ export const gdaForwarderAbi = [
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const gdaForwarderAddress = {
   1: '0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08',
@@ -1700,11 +1686,10 @@ export const gdaForwarderAddress = {
   43113: '0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08',
   43114: '0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08',
   84532: '0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08',
-  534351: '0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08',
   534352: '0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08',
+  5042002: '0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08',
   11155111: '0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08',
   11155420: '0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08',
-  666666666: '0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08',
 } as const
 
 /**
@@ -1719,11 +1704,10 @@ export const gdaForwarderAddress = {
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const gdaForwarderConfig = {
   address: gdaForwarderAddress,
@@ -3671,11 +3655,10 @@ export const superTokenAbi = [
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  */
 export const useReadBlindMacroForwarder = /*#__PURE__*/ createUseReadContract({
   abi: blindMacroForwarderAbi,
@@ -3696,11 +3679,10 @@ export const useReadBlindMacroForwarder = /*#__PURE__*/ createUseReadContract({
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  */
 export const useReadBlindMacroForwarderBuildBatchOperations =
   /*#__PURE__*/ createUseReadContract({
@@ -3723,11 +3705,10 @@ export const useReadBlindMacroForwarderBuildBatchOperations =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  */
 export const useWriteBlindMacroForwarder = /*#__PURE__*/ createUseWriteContract(
   { abi: blindMacroForwarderAbi, address: blindMacroForwarderAddress },
@@ -3747,11 +3728,10 @@ export const useWriteBlindMacroForwarder = /*#__PURE__*/ createUseWriteContract(
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  */
 export const useWriteBlindMacroForwarderRunMacro =
   /*#__PURE__*/ createUseWriteContract({
@@ -3774,11 +3754,10 @@ export const useWriteBlindMacroForwarderRunMacro =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  */
 export const useSimulateBlindMacroForwarder =
   /*#__PURE__*/ createUseSimulateContract({
@@ -3800,11 +3779,10 @@ export const useSimulateBlindMacroForwarder =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  */
 export const useSimulateBlindMacroForwarderRunMacro =
   /*#__PURE__*/ createUseSimulateContract({
@@ -3827,11 +3805,10 @@ export const useSimulateBlindMacroForwarderRunMacro =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  */
 export const useWatchBlindMacroForwarderEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -3853,11 +3830,10 @@ export const useWatchBlindMacroForwarderEvent =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xFD0268E33111565dE546af2675351A4b1587F89F)
  */
 export const useWatchBlindMacroForwarderMacroExecutedEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -3880,11 +3856,10 @@ export const useWatchBlindMacroForwarderMacroExecutedEvent =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useReadCfaForwarder = /*#__PURE__*/ createUseReadContract({
   abi: cfaForwarderAbi,
@@ -3905,11 +3880,10 @@ export const useReadCfaForwarder = /*#__PURE__*/ createUseReadContract({
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useReadCfaForwarderGetAccountFlowInfo =
   /*#__PURE__*/ createUseReadContract({
@@ -3932,11 +3906,10 @@ export const useReadCfaForwarderGetAccountFlowInfo =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useReadCfaForwarderGetAccountFlowrate =
   /*#__PURE__*/ createUseReadContract({
@@ -3959,11 +3932,10 @@ export const useReadCfaForwarderGetAccountFlowrate =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useReadCfaForwarderGetBufferAmountByFlowrate =
   /*#__PURE__*/ createUseReadContract({
@@ -3986,11 +3958,10 @@ export const useReadCfaForwarderGetBufferAmountByFlowrate =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useReadCfaForwarderGetFlowInfo =
   /*#__PURE__*/ createUseReadContract({
@@ -4013,11 +3984,10 @@ export const useReadCfaForwarderGetFlowInfo =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useReadCfaForwarderGetFlowOperatorPermissions =
   /*#__PURE__*/ createUseReadContract({
@@ -4040,11 +4010,10 @@ export const useReadCfaForwarderGetFlowOperatorPermissions =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useReadCfaForwarderGetFlowrate =
   /*#__PURE__*/ createUseReadContract({
@@ -4067,11 +4036,10 @@ export const useReadCfaForwarderGetFlowrate =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useWriteCfaForwarder = /*#__PURE__*/ createUseWriteContract({
   abi: cfaForwarderAbi,
@@ -4092,11 +4060,10 @@ export const useWriteCfaForwarder = /*#__PURE__*/ createUseWriteContract({
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useWriteCfaForwarderCreateFlow =
   /*#__PURE__*/ createUseWriteContract({
@@ -4119,11 +4086,10 @@ export const useWriteCfaForwarderCreateFlow =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useWriteCfaForwarderDeleteFlow =
   /*#__PURE__*/ createUseWriteContract({
@@ -4146,11 +4112,10 @@ export const useWriteCfaForwarderDeleteFlow =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useWriteCfaForwarderGrantPermissions =
   /*#__PURE__*/ createUseWriteContract({
@@ -4173,11 +4138,10 @@ export const useWriteCfaForwarderGrantPermissions =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useWriteCfaForwarderRevokePermissions =
   /*#__PURE__*/ createUseWriteContract({
@@ -4200,11 +4164,10 @@ export const useWriteCfaForwarderRevokePermissions =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useWriteCfaForwarderSetFlowrate =
   /*#__PURE__*/ createUseWriteContract({
@@ -4227,11 +4190,10 @@ export const useWriteCfaForwarderSetFlowrate =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useWriteCfaForwarderSetFlowrateFrom =
   /*#__PURE__*/ createUseWriteContract({
@@ -4254,11 +4216,10 @@ export const useWriteCfaForwarderSetFlowrateFrom =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useWriteCfaForwarderUpdateFlow =
   /*#__PURE__*/ createUseWriteContract({
@@ -4281,11 +4242,10 @@ export const useWriteCfaForwarderUpdateFlow =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useWriteCfaForwarderUpdateFlowOperatorPermissions =
   /*#__PURE__*/ createUseWriteContract({
@@ -4308,11 +4268,10 @@ export const useWriteCfaForwarderUpdateFlowOperatorPermissions =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useSimulateCfaForwarder = /*#__PURE__*/ createUseSimulateContract({
   abi: cfaForwarderAbi,
@@ -4333,11 +4292,10 @@ export const useSimulateCfaForwarder = /*#__PURE__*/ createUseSimulateContract({
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useSimulateCfaForwarderCreateFlow =
   /*#__PURE__*/ createUseSimulateContract({
@@ -4360,11 +4318,10 @@ export const useSimulateCfaForwarderCreateFlow =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useSimulateCfaForwarderDeleteFlow =
   /*#__PURE__*/ createUseSimulateContract({
@@ -4387,11 +4344,10 @@ export const useSimulateCfaForwarderDeleteFlow =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useSimulateCfaForwarderGrantPermissions =
   /*#__PURE__*/ createUseSimulateContract({
@@ -4414,11 +4370,10 @@ export const useSimulateCfaForwarderGrantPermissions =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useSimulateCfaForwarderRevokePermissions =
   /*#__PURE__*/ createUseSimulateContract({
@@ -4441,11 +4396,10 @@ export const useSimulateCfaForwarderRevokePermissions =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useSimulateCfaForwarderSetFlowrate =
   /*#__PURE__*/ createUseSimulateContract({
@@ -4468,11 +4422,10 @@ export const useSimulateCfaForwarderSetFlowrate =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useSimulateCfaForwarderSetFlowrateFrom =
   /*#__PURE__*/ createUseSimulateContract({
@@ -4495,11 +4448,10 @@ export const useSimulateCfaForwarderSetFlowrateFrom =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useSimulateCfaForwarderUpdateFlow =
   /*#__PURE__*/ createUseSimulateContract({
@@ -4522,11 +4474,10 @@ export const useSimulateCfaForwarderUpdateFlow =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x2CDd45c5182602a36d391F7F16DD9f8386C3bD8D)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xcfA132E353cB4E398080B9700609bb008eceB125)
  */
 export const useSimulateCfaForwarderUpdateFlowOperatorPermissions =
   /*#__PURE__*/ createUseSimulateContract({
@@ -4549,11 +4500,10 @@ export const useSimulateCfaForwarderUpdateFlowOperatorPermissions =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useReadClearMacroForwarder = /*#__PURE__*/ createUseReadContract({
   abi: clearMacroForwarderAbi,
@@ -4574,11 +4524,10 @@ export const useReadClearMacroForwarder = /*#__PURE__*/ createUseReadContract({
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useReadClearMacroForwarderPermit2 =
   /*#__PURE__*/ createUseReadContract({
@@ -4601,11 +4550,10 @@ export const useReadClearMacroForwarderPermit2 =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useReadClearMacroForwarderSelfProvider =
   /*#__PURE__*/ createUseReadContract({
@@ -4628,11 +4576,10 @@ export const useReadClearMacroForwarderSelfProvider =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useReadClearMacroForwarderEip712Domain =
   /*#__PURE__*/ createUseReadContract({
@@ -4655,11 +4602,10 @@ export const useReadClearMacroForwarderEip712Domain =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useReadClearMacroForwarderEncodeParams =
   /*#__PURE__*/ createUseReadContract({
@@ -4682,11 +4628,10 @@ export const useReadClearMacroForwarderEncodeParams =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useReadClearMacroForwarderGetDigest =
   /*#__PURE__*/ createUseReadContract({
@@ -4709,11 +4654,10 @@ export const useReadClearMacroForwarderGetDigest =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useReadClearMacroForwarderGetNonce =
   /*#__PURE__*/ createUseReadContract({
@@ -4736,11 +4680,10 @@ export const useReadClearMacroForwarderGetNonce =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useReadClearMacroForwarderGetPermit2WitnessStructHash =
   /*#__PURE__*/ createUseReadContract({
@@ -4763,11 +4706,10 @@ export const useReadClearMacroForwarderGetPermit2WitnessStructHash =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useReadClearMacroForwarderGetPermit2WitnessTypeString =
   /*#__PURE__*/ createUseReadContract({
@@ -4790,11 +4732,10 @@ export const useReadClearMacroForwarderGetPermit2WitnessTypeString =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useReadClearMacroForwarderGetStructHash =
   /*#__PURE__*/ createUseReadContract({
@@ -4817,11 +4758,10 @@ export const useReadClearMacroForwarderGetStructHash =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useReadClearMacroForwarderGetTypeDefinition =
   /*#__PURE__*/ createUseReadContract({
@@ -4844,11 +4784,10 @@ export const useReadClearMacroForwarderGetTypeDefinition =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useReadClearMacroForwarderGetTypeHash =
   /*#__PURE__*/ createUseReadContract({
@@ -4871,11 +4810,10 @@ export const useReadClearMacroForwarderGetTypeHash =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useWriteClearMacroForwarder = /*#__PURE__*/ createUseWriteContract(
   { abi: clearMacroForwarderAbi, address: clearMacroForwarderAddress },
@@ -4895,11 +4833,10 @@ export const useWriteClearMacroForwarder = /*#__PURE__*/ createUseWriteContract(
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useWriteClearMacroForwarderRunMacro =
   /*#__PURE__*/ createUseWriteContract({
@@ -4922,11 +4859,10 @@ export const useWriteClearMacroForwarderRunMacro =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useWriteClearMacroForwarderRunPermit2AndMacro =
   /*#__PURE__*/ createUseWriteContract({
@@ -4949,11 +4885,10 @@ export const useWriteClearMacroForwarderRunPermit2AndMacro =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useSimulateClearMacroForwarder =
   /*#__PURE__*/ createUseSimulateContract({
@@ -4975,11 +4910,10 @@ export const useSimulateClearMacroForwarder =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useSimulateClearMacroForwarderRunMacro =
   /*#__PURE__*/ createUseSimulateContract({
@@ -5002,11 +4936,10 @@ export const useSimulateClearMacroForwarderRunMacro =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useSimulateClearMacroForwarderRunPermit2AndMacro =
   /*#__PURE__*/ createUseSimulateContract({
@@ -5029,11 +4962,10 @@ export const useSimulateClearMacroForwarderRunPermit2AndMacro =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useWatchClearMacroForwarderEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -5055,11 +4987,10 @@ export const useWatchClearMacroForwarderEvent =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useWatchClearMacroForwarderEip712DomainChangedEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -5082,11 +5013,10 @@ export const useWatchClearMacroForwarderEip712DomainChangedEvent =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useWatchClearMacroForwarderMacroExecutedEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -5109,11 +5039,10 @@ export const useWatchClearMacroForwarderMacroExecutedEvent =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0xC1EaB73855155D4e021f7EB4f866996Bac2fe25e)
  */
 export const useWatchClearMacroForwarderPermit2UpgradeExecutedEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -5136,11 +5065,10 @@ export const useWatchClearMacroForwarderPermit2UpgradeExecutedEvent =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useReadGdaForwarder = /*#__PURE__*/ createUseReadContract({
   abi: gdaForwarderAbi,
@@ -5161,11 +5089,10 @@ export const useReadGdaForwarder = /*#__PURE__*/ createUseReadContract({
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useReadGdaForwarderEstimateDistributionActualAmount =
   /*#__PURE__*/ createUseReadContract({
@@ -5188,11 +5115,10 @@ export const useReadGdaForwarderEstimateDistributionActualAmount =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useReadGdaForwarderEstimateFlowDistributionActualFlowRate =
   /*#__PURE__*/ createUseReadContract({
@@ -5215,11 +5141,10 @@ export const useReadGdaForwarderEstimateFlowDistributionActualFlowRate =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useReadGdaForwarderGetFlowDistributionFlowRate =
   /*#__PURE__*/ createUseReadContract({
@@ -5242,11 +5167,10 @@ export const useReadGdaForwarderGetFlowDistributionFlowRate =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useReadGdaForwarderGetNetFlow =
   /*#__PURE__*/ createUseReadContract({
@@ -5269,11 +5193,10 @@ export const useReadGdaForwarderGetNetFlow =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useReadGdaForwarderGetPoolAdjustmentFlowInfo =
   /*#__PURE__*/ createUseReadContract({
@@ -5296,11 +5219,10 @@ export const useReadGdaForwarderGetPoolAdjustmentFlowInfo =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useReadGdaForwarderGetPoolAdjustmentFlowRate =
   /*#__PURE__*/ createUseReadContract({
@@ -5323,11 +5245,10 @@ export const useReadGdaForwarderGetPoolAdjustmentFlowRate =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useReadGdaForwarderIsMemberConnected =
   /*#__PURE__*/ createUseReadContract({
@@ -5350,11 +5271,10 @@ export const useReadGdaForwarderIsMemberConnected =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useReadGdaForwarderIsPool = /*#__PURE__*/ createUseReadContract({
   abi: gdaForwarderAbi,
@@ -5376,11 +5296,10 @@ export const useReadGdaForwarderIsPool = /*#__PURE__*/ createUseReadContract({
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useWriteGdaForwarder = /*#__PURE__*/ createUseWriteContract({
   abi: gdaForwarderAbi,
@@ -5401,11 +5320,10 @@ export const useWriteGdaForwarder = /*#__PURE__*/ createUseWriteContract({
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useWriteGdaForwarderClaimAll =
   /*#__PURE__*/ createUseWriteContract({
@@ -5428,11 +5346,10 @@ export const useWriteGdaForwarderClaimAll =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useWriteGdaForwarderConnectPool =
   /*#__PURE__*/ createUseWriteContract({
@@ -5455,11 +5372,10 @@ export const useWriteGdaForwarderConnectPool =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useWriteGdaForwarderCreatePool =
   /*#__PURE__*/ createUseWriteContract({
@@ -5482,11 +5398,10 @@ export const useWriteGdaForwarderCreatePool =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useWriteGdaForwarderDisconnectPool =
   /*#__PURE__*/ createUseWriteContract({
@@ -5509,11 +5424,10 @@ export const useWriteGdaForwarderDisconnectPool =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useWriteGdaForwarderDistribute =
   /*#__PURE__*/ createUseWriteContract({
@@ -5536,11 +5450,10 @@ export const useWriteGdaForwarderDistribute =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useWriteGdaForwarderDistributeFlow =
   /*#__PURE__*/ createUseWriteContract({
@@ -5563,11 +5476,10 @@ export const useWriteGdaForwarderDistributeFlow =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useWriteGdaForwarderUpdateMemberUnits =
   /*#__PURE__*/ createUseWriteContract({
@@ -5590,11 +5502,10 @@ export const useWriteGdaForwarderUpdateMemberUnits =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useSimulateGdaForwarder = /*#__PURE__*/ createUseSimulateContract({
   abi: gdaForwarderAbi,
@@ -5615,11 +5526,10 @@ export const useSimulateGdaForwarder = /*#__PURE__*/ createUseSimulateContract({
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useSimulateGdaForwarderClaimAll =
   /*#__PURE__*/ createUseSimulateContract({
@@ -5642,11 +5552,10 @@ export const useSimulateGdaForwarderClaimAll =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useSimulateGdaForwarderConnectPool =
   /*#__PURE__*/ createUseSimulateContract({
@@ -5669,11 +5578,10 @@ export const useSimulateGdaForwarderConnectPool =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useSimulateGdaForwarderCreatePool =
   /*#__PURE__*/ createUseSimulateContract({
@@ -5696,11 +5604,10 @@ export const useSimulateGdaForwarderCreatePool =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useSimulateGdaForwarderDisconnectPool =
   /*#__PURE__*/ createUseSimulateContract({
@@ -5723,11 +5630,10 @@ export const useSimulateGdaForwarderDisconnectPool =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useSimulateGdaForwarderDistribute =
   /*#__PURE__*/ createUseSimulateContract({
@@ -5750,11 +5656,10 @@ export const useSimulateGdaForwarderDistribute =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useSimulateGdaForwarderDistributeFlow =
   /*#__PURE__*/ createUseSimulateContract({
@@ -5777,11 +5682,10 @@ export const useSimulateGdaForwarderDistributeFlow =
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
- * - [__View Contract on Degen Degen Chain Explorer__](https://explorer.degen.tips/address/0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08)
  */
 export const useSimulateGdaForwarderUpdateMemberUnits =
   /*#__PURE__*/ createUseSimulateContract({
