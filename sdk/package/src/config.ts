@@ -1,6 +1,7 @@
 import { fallback, http, type Transport } from "viem"
 import {
 	arbitrum,
+	arcTestnet,
 	avalanche,
 	avalancheFuji,
 	base,
@@ -8,14 +9,12 @@ import {
 	bsc,
 	type Chain as Chain_,
 	celo,
-	degen,
 	gnosis,
 	mainnet,
 	optimism,
 	optimismSepolia,
 	polygon,
 	scroll,
-	scrollSepolia,
 	sepolia,
 } from "viem/chains"
 
@@ -27,13 +26,12 @@ export const superfluidMainnets: readonly [
 	Chain & { id: (typeof avalanche)["id"] },
 	Chain & { id: (typeof bsc)["id"] },
 	Chain & { id: (typeof celo)["id"] },
-	Chain & { id: (typeof degen)["id"] },
 	Chain & { id: (typeof gnosis)["id"] },
 	Chain & { id: (typeof mainnet)["id"] },
 	Chain & { id: (typeof optimism)["id"] },
 	Chain & { id: (typeof polygon)["id"] },
 	Chain & { id: (typeof scroll)["id"] },
-] = [base, arbitrum, avalanche, bsc, celo, degen, gnosis, mainnet, optimism, polygon, scroll]
+] = [base, arbitrum, avalanche, bsc, celo, gnosis, mainnet, optimism, polygon, scroll]
 
 type MainnetChainId = (typeof superfluidMainnets)[number]["id"]
 
@@ -41,9 +39,9 @@ export const superfluidTestnets: readonly [
 	Chain & { id: (typeof baseSepolia)["id"] },
 	Chain & { id: (typeof avalancheFuji)["id"] },
 	Chain & { id: (typeof optimismSepolia)["id"] },
-	Chain & { id: (typeof scrollSepolia)["id"] },
 	Chain & { id: (typeof sepolia)["id"] },
-] = [baseSepolia, avalancheFuji, optimismSepolia, scrollSepolia, sepolia] as const
+	Chain & { id: (typeof arcTestnet)["id"] },
+] = [baseSepolia, avalancheFuji, optimismSepolia, sepolia, arcTestnet] as const
 
 type TestnetChainId = (typeof superfluidTestnets)[number]["id"]
 
@@ -53,7 +51,6 @@ export const superfluidMainnetTransports = {
 	[avalanche.id]: fallback([http(), http("https://rpc-endpoints.superfluid.dev/avalanche-c")]),
 	[bsc.id]: fallback([http(), http("https://rpc-endpoints.superfluid.dev/bsc-mainnet")]),
 	[celo.id]: fallback([http(), http("https://rpc-endpoints.superfluid.dev/celo-mainnet")]),
-	[degen.id]: fallback([http(), http("https://rpc-endpoints.superfluid.dev/degenchain")]),
 	[gnosis.id]: fallback([http(), http("https://rpc-endpoints.superfluid.dev/xdai-mainnet")]),
 	[mainnet.id]: fallback([http(), http("https://rpc-endpoints.superfluid.dev/eth-mainnet")]),
 	[optimism.id]: fallback([http(), http("https://rpc-endpoints.superfluid.dev/optimism-mainnet")]),
@@ -65,6 +62,6 @@ export const superfluidTestnetTransports = {
 	[baseSepolia.id]: fallback([http(), http("https://rpc-endpoints.superfluid.dev/base-sepolia")]),
 	[avalancheFuji.id]: fallback([http(), http("https://rpc-endpoints.superfluid.dev/avalanche-fuji")]),
 	[optimismSepolia.id]: fallback([http(), http("https://rpc-endpoints.superfluid.dev/optimism-sepolia")]),
-	[scrollSepolia.id]: fallback([http(), http("https://rpc-endpoints.superfluid.dev/scroll-sepolia")]),
 	[sepolia.id]: fallback([http(), http("https://rpc-endpoints.superfluid.dev/eth-sepolia")]),
+	[arcTestnet.id]: fallback([http(), http("https://rpc-endpoints.superfluid.dev/arc-testnet")]),
 } as const satisfies Record<TestnetChainId, Transport>

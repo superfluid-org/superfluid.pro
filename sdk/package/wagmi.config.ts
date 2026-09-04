@@ -98,8 +98,8 @@ const testnetGovernanceAddresses: Record<number, Address> = {
 	43113: "0xD0b6A4A3bE43265BEe638E4840755a3D7cC8A962", // avalanche-fuji
 	11155111: "0x9539B21cC67844417E80aE168bc28c831E7Ed271", // eth-sepolia
 	11155420: "0x24fDCc8386f9949DCFF792fF3fbB3dD0526C11aD", // optimism-sepolia
-	534351: "0xac4eF44848b6AE6BEdd12E0e3F806cAf4d333cdd", // scroll-sepolia
 	84532: "0x3BDd82FFbCcB9DBD0c233Ecd950642edbF60D667", // base-sepolia
+	5042002: "0x5F001c3915084186B9109fB9dc1e978c98f854b0", // arc-testnet
 };
 
 // # Superfluid error codes
