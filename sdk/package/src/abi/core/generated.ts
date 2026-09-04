@@ -1845,7 +1845,6 @@ export const gdaConfig = { address: gdaAddress, abi: gdaAbi } as const
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xD0b6A4A3bE43265BEe638E4840755a3D7cC8A962)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xF74390BabA510ec2fE196c2e02B037380d7a6F12)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x3BDd82FFbCcB9DBD0c233Ecd950642edbF60D667)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xac4eF44848b6AE6BEdd12E0e3F806cAf4d333cdd)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC2C9a709A6744816b3712D520BD314fe610AEa33)
  * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x5F001c3915084186B9109fB9dc1e978c98f854b0)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x9539B21cC67844417E80aE168bc28c831E7Ed271)
@@ -2634,7 +2633,6 @@ export const governanceAbi = [
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xD0b6A4A3bE43265BEe638E4840755a3D7cC8A962)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xF74390BabA510ec2fE196c2e02B037380d7a6F12)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x3BDd82FFbCcB9DBD0c233Ecd950642edbF60D667)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xac4eF44848b6AE6BEdd12E0e3F806cAf4d333cdd)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC2C9a709A6744816b3712D520BD314fe610AEa33)
  * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x5F001c3915084186B9109fB9dc1e978c98f854b0)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x9539B21cC67844417E80aE168bc28c831E7Ed271)
@@ -2652,7 +2650,6 @@ export const governanceAddress = {
   43113: '0xD0b6A4A3bE43265BEe638E4840755a3D7cC8A962',
   43114: '0xF74390BabA510ec2fE196c2e02B037380d7a6F12',
   84532: '0x3BDd82FFbCcB9DBD0c233Ecd950642edbF60D667',
-  534351: '0xac4eF44848b6AE6BEdd12E0e3F806cAf4d333cdd',
   534352: '0xC2C9a709A6744816b3712D520BD314fe610AEa33',
   5042002: '0x5f001c3915084186B9109fB9DC1E978C98F854B0',
   11155111: '0x9539B21cC67844417E80aE168bc28c831E7Ed271',
@@ -2671,7 +2668,6 @@ export const governanceAddress = {
  * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xD0b6A4A3bE43265BEe638E4840755a3D7cC8A962)
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0xF74390BabA510ec2fE196c2e02B037380d7a6F12)
  * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x3BDd82FFbCcB9DBD0c233Ecd950642edbF60D667)
- * - [__View Contract on Scroll Sepolia Scrollscan__](https://sepolia.scrollscan.com/address/0xac4eF44848b6AE6BEdd12E0e3F806cAf4d333cdd)
  * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0xC2C9a709A6744816b3712D520BD314fe610AEa33)
  * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x5F001c3915084186B9109fB9dc1e978c98f854b0)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x9539B21cC67844417E80aE168bc28c831E7Ed271)
