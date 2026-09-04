@@ -1,5 +1,11 @@
 # @sfpro/sdk
 
+## 0.3.0
+
+### Minor Changes
+
+- 83cfe0d: Added support for arc-testnet, removed degenchain and scroll-sepolia
+
 ## 0.2.4
 
 ### Patch Changes
