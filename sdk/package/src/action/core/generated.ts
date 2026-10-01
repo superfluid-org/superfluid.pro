@@ -15,6 +15,7 @@ import {
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xF353978890204756fc5fa6dfbD16a91eac9E6f4d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb688e4Da3100Bcec4b5B3140C8Fb482ad15D2013)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x444A48dA32649Ed03eeC9B9cD416748262c320E6)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x9F9EEd9Bbc38E9e0514fD9dFcc0Bca9869A9c534)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xe8B40071df98bBEe23833905AFcF7b28fC7Ca3cb)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xF0d7d1D47109bA426B9D8A3Cde1941327af1eea3)
@@ -107,6 +108,7 @@ export const batchLiquidatorAbi = [
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xF353978890204756fc5fa6dfbD16a91eac9E6f4d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb688e4Da3100Bcec4b5B3140C8Fb482ad15D2013)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x444A48dA32649Ed03eeC9B9cD416748262c320E6)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x9F9EEd9Bbc38E9e0514fD9dFcc0Bca9869A9c534)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xe8B40071df98bBEe23833905AFcF7b28fC7Ca3cb)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xF0d7d1D47109bA426B9D8A3Cde1941327af1eea3)
@@ -124,6 +126,7 @@ export const batchLiquidatorAddress = {
   56: '0xF353978890204756fc5fa6dfbD16a91eac9E6f4d',
   100: '0xb688e4Da3100Bcec4b5B3140C8Fb482ad15D2013',
   137: '0x444A48dA32649Ed03eeC9B9cD416748262c320E6',
+  5042: '0xFe5F089374B51B84b8E24FB493AD5217d5953f21',
   8453: '0x9F9EEd9Bbc38E9e0514fD9dFcc0Bca9869A9c534',
   42161: '0xe8B40071df98bBEe23833905AFcF7b28fC7Ca3cb',
   42220: '0xF0d7d1D47109bA426B9D8A3Cde1941327af1eea3',
@@ -142,6 +145,7 @@ export const batchLiquidatorAddress = {
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xF353978890204756fc5fa6dfbD16a91eac9E6f4d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb688e4Da3100Bcec4b5B3140C8Fb482ad15D2013)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x444A48dA32649Ed03eeC9B9cD416748262c320E6)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x9F9EEd9Bbc38E9e0514fD9dFcc0Bca9869A9c534)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xe8B40071df98bBEe23833905AFcF7b28fC7Ca3cb)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xF0d7d1D47109bA426B9D8A3Cde1941327af1eea3)
@@ -168,6 +172,7 @@ export const batchLiquidatorConfig = {
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -858,6 +863,7 @@ export const cfaAbi = [
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -875,6 +881,7 @@ export const cfaAddress = {
   56: '0x49c38108870e74Cb9420C0991a85D3edd6363F75',
   100: '0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D',
   137: '0x6EeE6060f715257b970700bc2656De21dEdF074C',
+  5042: '0xFb60b139CD14262eC4FEe466B388Bb7f5A06Bf75',
   8453: '0x19ba78B9cDB05A877718841c574325fdB53601bb',
   42161: '0x731FdBB12944973B500518aea61942381d7e240D',
   42220: '0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad',
@@ -893,6 +900,7 @@ export const cfaAddress = {
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -916,6 +924,7 @@ export const cfaConfig = { address: cfaAddress, abi: cfaAbi } as const
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -1788,6 +1797,7 @@ export const gdaAbi = [
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -1805,6 +1815,7 @@ export const gdaAddress = {
   56: '0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2',
   100: '0xd7992D358A20478c82dDEd98B3D8A9da46e99b82',
   137: '0x961dd5A052741B49B6CBf6759591f9D8576fCFb0',
+  5042: '0xE32790AC5e6aAA8416364551b5E1E6736c64e50D',
   8453: '0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa',
   42161: '0x1e299701792a2aF01408B122419d65Fd2dF0Ba02',
   42220: '0x308b7405272d11494716e30C6E972DbF6fb89555',
@@ -1823,6 +1834,7 @@ export const gdaAddress = {
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -1846,6 +1858,7 @@ export const gdaConfig = { address: gdaAddress, abi: gdaAbi } as const
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -2634,6 +2647,7 @@ export const governanceAbi = [
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -2651,6 +2665,7 @@ export const governanceAddress = {
   56: '0xee07D9fce4Cf2a891BC979E9d365929506C2982f',
   100: '0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478',
   137: '0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087',
+  5042: '0xC2C9a709A6744816b3712D520BD314fe610AEa33',
   8453: '0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D',
   42161: '0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D',
   42220: '0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D',
@@ -2669,6 +2684,7 @@ export const governanceAddress = {
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -2695,6 +2711,7 @@ export const governanceConfig = {
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -3713,6 +3730,7 @@ export const hostAbi = [
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -3730,6 +3748,7 @@ export const hostAddress = {
   56: '0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E',
   100: '0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7',
   137: '0x3E14dC1b13c488a8d5D310918780c983bD5982E7',
+  5042: '0x43Cd22BA2aDEd92BAa390506b8F1f15BF4651A7f',
   8453: '0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74',
   42161: '0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192',
   42220: '0xA4Ff07cF81C02CFD356184879D953970cA957585',
@@ -3748,6 +3767,7 @@ export const hostAddress = {
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -3771,6 +3791,7 @@ export const hostConfig = { address: hostAddress, abi: hostAbi } as const
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -4545,6 +4566,7 @@ export const idaAbi = [
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -4562,6 +4584,7 @@ export const idaAddress = {
   56: '0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d',
   100: '0x7888ac96F987Eb10E291F34851ae0266eF912081',
   137: '0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1',
+  5042: '0xBDa1B20e5deef07AA19C2Af5c8a3430642b2C366',
   8453: '0x66DF3f8e14CF870361378d8F61356D15d9F425C4',
   42161: '0x2319C7e07EB063340D2a0E36709B0D65fda75986',
   42220: '0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA',
@@ -4580,6 +4603,7 @@ export const idaAddress = {
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -4603,6 +4627,7 @@ export const idaConfig = { address: idaAddress, abi: idaAbi } as const
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -4919,6 +4944,7 @@ export const superTokenFactoryAbi = [
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -4936,6 +4962,7 @@ export const superTokenFactoryAddress = {
   56: '0x8bde47397301F0Cd31b9000032fD517a39c946Eb',
   100: '0x23410e2659380784498509698ed70E414D384880',
   137: '0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34',
+  5042: '0x583C78b9c93538FEfc56E49371A0dcc844027325',
   8453: '0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3',
   42161: '0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6',
   42220: '0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9',
@@ -4954,6 +4981,7 @@ export const superTokenFactoryAddress = {
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -4980,6 +5008,7 @@ export const superTokenFactoryConfig = {
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
@@ -5158,6 +5187,7 @@ export const togaAbi = [
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
@@ -5170,6 +5200,7 @@ export const togaAddress = {
   56: '0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF',
   100: '0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22',
   137: '0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7',
+  5042: '0x1bF9D75d50fD828a93f69ECB06f2B85767792CEB',
   8453: '0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09',
   42161: '0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF',
   42220: '0x9bCa3a623e7b2e248510d88B2894F54898d88F91',
@@ -5183,6 +5214,7 @@ export const togaAddress = {
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
@@ -5203,6 +5235,7 @@ export const togaConfig = { address: togaAddress, abi: togaAbi } as const
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xF353978890204756fc5fa6dfbD16a91eac9E6f4d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb688e4Da3100Bcec4b5B3140C8Fb482ad15D2013)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x444A48dA32649Ed03eeC9B9cD416748262c320E6)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x9F9EEd9Bbc38E9e0514fD9dFcc0Bca9869A9c534)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xe8B40071df98bBEe23833905AFcF7b28fC7Ca3cb)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xF0d7d1D47109bA426B9D8A3Cde1941327af1eea3)
@@ -5227,6 +5260,7 @@ export const readBatchLiquidator = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xF353978890204756fc5fa6dfbD16a91eac9E6f4d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb688e4Da3100Bcec4b5B3140C8Fb482ad15D2013)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x444A48dA32649Ed03eeC9B9cD416748262c320E6)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x9F9EEd9Bbc38E9e0514fD9dFcc0Bca9869A9c534)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xe8B40071df98bBEe23833905AFcF7b28fC7Ca3cb)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xF0d7d1D47109bA426B9D8A3Cde1941327af1eea3)
@@ -5252,6 +5286,7 @@ export const readBatchLiquidatorCfa = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xF353978890204756fc5fa6dfbD16a91eac9E6f4d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb688e4Da3100Bcec4b5B3140C8Fb482ad15D2013)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x444A48dA32649Ed03eeC9B9cD416748262c320E6)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x9F9EEd9Bbc38E9e0514fD9dFcc0Bca9869A9c534)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xe8B40071df98bBEe23833905AFcF7b28fC7Ca3cb)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xF0d7d1D47109bA426B9D8A3Cde1941327af1eea3)
@@ -5277,6 +5312,7 @@ export const readBatchLiquidatorGda = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xF353978890204756fc5fa6dfbD16a91eac9E6f4d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb688e4Da3100Bcec4b5B3140C8Fb482ad15D2013)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x444A48dA32649Ed03eeC9B9cD416748262c320E6)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x9F9EEd9Bbc38E9e0514fD9dFcc0Bca9869A9c534)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xe8B40071df98bBEe23833905AFcF7b28fC7Ca3cb)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xF0d7d1D47109bA426B9D8A3Cde1941327af1eea3)
@@ -5302,6 +5338,7 @@ export const readBatchLiquidatorHost = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xF353978890204756fc5fa6dfbD16a91eac9E6f4d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb688e4Da3100Bcec4b5B3140C8Fb482ad15D2013)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x444A48dA32649Ed03eeC9B9cD416748262c320E6)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x9F9EEd9Bbc38E9e0514fD9dFcc0Bca9869A9c534)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xe8B40071df98bBEe23833905AFcF7b28fC7Ca3cb)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xF0d7d1D47109bA426B9D8A3Cde1941327af1eea3)
@@ -5326,6 +5363,7 @@ export const writeBatchLiquidator = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xF353978890204756fc5fa6dfbD16a91eac9E6f4d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb688e4Da3100Bcec4b5B3140C8Fb482ad15D2013)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x444A48dA32649Ed03eeC9B9cD416748262c320E6)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x9F9EEd9Bbc38E9e0514fD9dFcc0Bca9869A9c534)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xe8B40071df98bBEe23833905AFcF7b28fC7Ca3cb)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xF0d7d1D47109bA426B9D8A3Cde1941327af1eea3)
@@ -5353,6 +5391,7 @@ export const writeBatchLiquidatorDeleteFlow = /*#__PURE__*/ createWriteContract(
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xF353978890204756fc5fa6dfbD16a91eac9E6f4d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb688e4Da3100Bcec4b5B3140C8Fb482ad15D2013)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x444A48dA32649Ed03eeC9B9cD416748262c320E6)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x9F9EEd9Bbc38E9e0514fD9dFcc0Bca9869A9c534)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xe8B40071df98bBEe23833905AFcF7b28fC7Ca3cb)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xF0d7d1D47109bA426B9D8A3Cde1941327af1eea3)
@@ -5379,6 +5418,7 @@ export const writeBatchLiquidatorDeleteFlows =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xF353978890204756fc5fa6dfbD16a91eac9E6f4d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb688e4Da3100Bcec4b5B3140C8Fb482ad15D2013)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x444A48dA32649Ed03eeC9B9cD416748262c320E6)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x9F9EEd9Bbc38E9e0514fD9dFcc0Bca9869A9c534)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xe8B40071df98bBEe23833905AFcF7b28fC7Ca3cb)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xF0d7d1D47109bA426B9D8A3Cde1941327af1eea3)
@@ -5403,6 +5443,7 @@ export const simulateBatchLiquidator = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xF353978890204756fc5fa6dfbD16a91eac9E6f4d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb688e4Da3100Bcec4b5B3140C8Fb482ad15D2013)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x444A48dA32649Ed03eeC9B9cD416748262c320E6)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x9F9EEd9Bbc38E9e0514fD9dFcc0Bca9869A9c534)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xe8B40071df98bBEe23833905AFcF7b28fC7Ca3cb)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xF0d7d1D47109bA426B9D8A3Cde1941327af1eea3)
@@ -5429,6 +5470,7 @@ export const simulateBatchLiquidatorDeleteFlow =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xF353978890204756fc5fa6dfbD16a91eac9E6f4d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb688e4Da3100Bcec4b5B3140C8Fb482ad15D2013)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x444A48dA32649Ed03eeC9B9cD416748262c320E6)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x9F9EEd9Bbc38E9e0514fD9dFcc0Bca9869A9c534)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xe8B40071df98bBEe23833905AFcF7b28fC7Ca3cb)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xF0d7d1D47109bA426B9D8A3Cde1941327af1eea3)
@@ -5455,6 +5497,7 @@ export const simulateBatchLiquidatorDeleteFlows =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5479,6 +5522,7 @@ export const readCfa = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5504,6 +5548,7 @@ export const readCfaHookGasLimit = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5529,6 +5574,7 @@ export const readCfaDefaultMinimumDeposit = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5554,6 +5600,7 @@ export const readCfaMaximumDeposit = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5579,6 +5626,7 @@ export const readCfaMaximumFlowRate = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5604,6 +5652,7 @@ export const readCfaAddPermissions = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5629,6 +5678,7 @@ export const readCfaAgreementType = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5654,6 +5704,7 @@ export const readCfaGetAccountFlowInfo = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5679,6 +5730,7 @@ export const readCfaGetCodeAddress = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5705,6 +5757,7 @@ export const readCfaGetDepositRequiredForFlowRate =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5730,6 +5783,7 @@ export const readCfaGetFlow = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5755,6 +5809,7 @@ export const readCfaGetFlowById = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5780,6 +5835,7 @@ export const readCfaGetFlowOperatorData = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5805,6 +5861,7 @@ export const readCfaGetFlowOperatorDataById = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5831,6 +5888,7 @@ export const readCfaGetMaximumFlowRateFromDeposit =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5856,6 +5914,7 @@ export const readCfaGetNetFlow = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5881,6 +5940,7 @@ export const readCfaIsPatricianPeriod = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5906,6 +5966,7 @@ export const readCfaIsPatricianPeriodNow = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5931,6 +5992,7 @@ export const readCfaProxiableUuid = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5956,6 +6018,7 @@ export const readCfaRealtimeBalanceOf = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -5981,6 +6044,7 @@ export const readCfaRemovePermissions = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6005,6 +6069,7 @@ export const writeCfa = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6031,6 +6096,7 @@ export const writeCfaAuthorizeFlowOperatorWithFullControl =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6056,6 +6122,7 @@ export const writeCfaCastrate = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6081,6 +6148,7 @@ export const writeCfaCreateFlow = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6106,6 +6174,7 @@ export const writeCfaCreateFlowByOperator = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6132,6 +6201,7 @@ export const writeCfaDecreaseFlowRateAllowance =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6158,6 +6228,7 @@ export const writeCfaDecreaseFlowRateAllowanceWithPermissions =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6183,6 +6254,7 @@ export const writeCfaDeleteFlow = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6208,6 +6280,7 @@ export const writeCfaDeleteFlowByOperator = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6234,6 +6307,7 @@ export const writeCfaIncreaseFlowRateAllowance =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6260,6 +6334,7 @@ export const writeCfaIncreaseFlowRateAllowanceWithPermissions =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6286,6 +6361,7 @@ export const writeCfaRevokeFlowOperatorWithFullControl =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6311,6 +6387,7 @@ export const writeCfaUpdateCode = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6336,6 +6413,7 @@ export const writeCfaUpdateFlow = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6361,6 +6439,7 @@ export const writeCfaUpdateFlowByOperator = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6387,6 +6466,7 @@ export const writeCfaUpdateFlowOperatorPermissions =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6411,6 +6491,7 @@ export const simulateCfa = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6437,6 +6518,7 @@ export const simulateCfaAuthorizeFlowOperatorWithFullControl =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6462,6 +6544,7 @@ export const simulateCfaCastrate = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6487,6 +6570,7 @@ export const simulateCfaCreateFlow = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6513,6 +6597,7 @@ export const simulateCfaCreateFlowByOperator =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6539,6 +6624,7 @@ export const simulateCfaDecreaseFlowRateAllowance =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6565,6 +6651,7 @@ export const simulateCfaDecreaseFlowRateAllowanceWithPermissions =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6590,6 +6677,7 @@ export const simulateCfaDeleteFlow = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6616,6 +6704,7 @@ export const simulateCfaDeleteFlowByOperator =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6642,6 +6731,7 @@ export const simulateCfaIncreaseFlowRateAllowance =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6668,6 +6758,7 @@ export const simulateCfaIncreaseFlowRateAllowanceWithPermissions =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6694,6 +6785,7 @@ export const simulateCfaRevokeFlowOperatorWithFullControl =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6719,6 +6811,7 @@ export const simulateCfaUpdateCode = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6744,6 +6837,7 @@ export const simulateCfaUpdateFlow = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6770,6 +6864,7 @@ export const simulateCfaUpdateFlowByOperator =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6796,6 +6891,7 @@ export const simulateCfaUpdateFlowOperatorPermissions =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6820,6 +6916,7 @@ export const watchCfaEvent = /*#__PURE__*/ createWatchContractEvent({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6845,6 +6942,7 @@ export const watchCfaCodeUpdatedEvent = /*#__PURE__*/ createWatchContractEvent({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6871,6 +6969,7 @@ export const watchCfaFlowOperatorUpdatedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6896,6 +6995,7 @@ export const watchCfaFlowUpdatedEvent = /*#__PURE__*/ createWatchContractEvent({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6922,6 +7022,7 @@ export const watchCfaFlowUpdatedExtensionEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x49c38108870e74Cb9420C0991a85D3edd6363F75)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xEbdA4ceF883A7B12c4E669Ebc58927FBa8447C7D)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6EeE6060f715257b970700bc2656De21dEdF074C)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x19ba78B9cDB05A877718841c574325fdB53601bb)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x731FdBB12944973B500518aea61942381d7e240D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9d369e78e1a682cE0F8d9aD849BeA4FE1c3bD3Ad)
@@ -6947,6 +7048,7 @@ export const watchCfaInitializedEvent = /*#__PURE__*/ createWatchContractEvent({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -6971,6 +7073,7 @@ export const readGda = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -6997,6 +7100,7 @@ export const readGdaAclPoolConnectExclusiveRole =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7022,6 +7126,7 @@ export const readGdaMaxPoolAutoConnectSlots = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7048,6 +7153,7 @@ export const readGdaSlotsBitmapLibraryAddress =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7074,6 +7180,7 @@ export const readGdaSuperfluidPoolDeployerAddress =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7099,6 +7206,7 @@ export const readGdaAgreementType = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7125,6 +7233,7 @@ export const readGdaEstimateDistributionActualAmount =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7151,6 +7260,7 @@ export const readGdaEstimateFlowDistributionActualFlowRate =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7176,6 +7286,7 @@ export const readGdaGetAccountFlowInfo = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7201,6 +7312,7 @@ export const readGdaGetCodeAddress = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7226,6 +7338,7 @@ export const readGdaGetFlow = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7251,6 +7364,7 @@ export const readGdaGetFlowRate = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7276,6 +7390,7 @@ export const readGdaGetNetFlow = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7302,6 +7417,7 @@ export const readGdaGetPoolAdjustmentFlowInfo =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7328,6 +7444,7 @@ export const readGdaGetPoolAdjustmentFlowRate =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7353,6 +7470,7 @@ export const readGdaIsMemberConnected = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7378,6 +7496,7 @@ export const readGdaIsPatricianPeriod = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7403,6 +7522,7 @@ export const readGdaIsPatricianPeriodNow = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7428,6 +7548,7 @@ export const readGdaIsPool = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7453,6 +7574,7 @@ export const readGdaProxiableUuid = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7478,6 +7600,7 @@ export const readGdaRealtimeBalanceOf = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7503,6 +7626,7 @@ export const readGdaRealtimeBalanceOfNow = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7528,6 +7652,7 @@ export const readGdaSuperfluidPoolBeacon = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7552,6 +7677,7 @@ export const writeGda = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7578,6 +7704,7 @@ export const writeGdaAppendIndexUpdateByPool =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7603,6 +7730,7 @@ export const writeGdaCastrate = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7628,6 +7756,7 @@ export const writeGdaClaimAll = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7653,6 +7782,7 @@ export const writeGdaConnectPool = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7678,6 +7808,7 @@ export const writeGdaCreatePool = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7704,6 +7835,7 @@ export const writeGdaCreatePoolWithCustomErc20Metadata =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7729,6 +7861,7 @@ export const writeGdaDisconnectPool = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7754,6 +7887,7 @@ export const writeGdaDistribute = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7779,6 +7913,7 @@ export const writeGdaDistributeFlow = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7804,6 +7939,7 @@ export const writeGdaPoolSettleClaim = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7829,6 +7965,7 @@ export const writeGdaSetConnectPermission = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7854,6 +7991,7 @@ export const writeGdaTryConnectPoolFor = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7879,6 +8017,7 @@ export const writeGdaUpdateCode = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7904,6 +8043,7 @@ export const writeGdaUpdateMemberUnits = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7928,6 +8068,7 @@ export const simulateGda = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7954,6 +8095,7 @@ export const simulateGdaAppendIndexUpdateByPool =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -7979,6 +8121,7 @@ export const simulateGdaCastrate = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8004,6 +8147,7 @@ export const simulateGdaClaimAll = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8029,6 +8173,7 @@ export const simulateGdaConnectPool = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8054,6 +8199,7 @@ export const simulateGdaCreatePool = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8080,6 +8226,7 @@ export const simulateGdaCreatePoolWithCustomErc20Metadata =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8105,6 +8252,7 @@ export const simulateGdaDisconnectPool = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8130,6 +8278,7 @@ export const simulateGdaDistribute = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8155,6 +8304,7 @@ export const simulateGdaDistributeFlow = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8180,6 +8330,7 @@ export const simulateGdaPoolSettleClaim = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8206,6 +8357,7 @@ export const simulateGdaSetConnectPermission =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8232,6 +8384,7 @@ export const simulateGdaTryConnectPoolFor =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8257,6 +8410,7 @@ export const simulateGdaUpdateCode = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8283,6 +8437,7 @@ export const simulateGdaUpdateMemberUnits =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8307,6 +8462,7 @@ export const watchGdaEvent = /*#__PURE__*/ createWatchContractEvent({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8333,6 +8489,7 @@ export const watchGdaBufferAdjustedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8358,6 +8515,7 @@ export const watchGdaCodeUpdatedEvent = /*#__PURE__*/ createWatchContractEvent({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8384,6 +8542,7 @@ export const watchGdaFlowDistributionUpdatedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8409,6 +8568,7 @@ export const watchGdaInitializedEvent = /*#__PURE__*/ createWatchContractEvent({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8435,6 +8595,7 @@ export const watchGdaInstantDistributionUpdatedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8461,6 +8622,7 @@ export const watchGdaPoolConnectionUpdatedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x3bbFA4C406719424C7f66CD97A8Fe27Af383d3e2)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xd7992D358A20478c82dDEd98B3D8A9da46e99b82)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x961dd5A052741B49B6CBf6759591f9D8576fCFb0)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1e299701792a2aF01408B122419d65Fd2dF0Ba02)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x308b7405272d11494716e30C6E972DbF6fb89555)
@@ -8486,6 +8648,7 @@ export const watchGdaPoolCreatedEvent = /*#__PURE__*/ createWatchContractEvent({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8510,6 +8673,7 @@ export const readGovernance = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8535,6 +8699,7 @@ export const readGovernanceGetCodeAddress = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8561,6 +8726,7 @@ export const readGovernanceGetConfigAsAddress =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8587,6 +8753,7 @@ export const readGovernanceGetConfigAsUint256 =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8612,6 +8779,7 @@ export const readGovernanceGetPppConfig = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8637,6 +8805,7 @@ export const readGovernanceGetRewardAddress = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8663,6 +8832,7 @@ export const readGovernanceGetSuperTokenMinimumDeposit =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8689,6 +8859,7 @@ export const readGovernanceIsAuthorizedAppFactory =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8715,6 +8886,7 @@ export const readGovernanceIsTrustedForwarder =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8740,6 +8912,7 @@ export const readGovernanceOwner = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8765,6 +8938,7 @@ export const readGovernanceProxiableUuid = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8791,6 +8965,7 @@ export const readGovernanceVerifyAppRegistrationKey =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8815,6 +8990,7 @@ export const writeGovernance = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8841,6 +9017,7 @@ export const writeGovernanceAuthorizeAppFactory =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8867,6 +9044,7 @@ export const writeGovernanceBatchChangeSuperTokenAdmin =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8893,6 +9071,7 @@ export const writeGovernanceBatchUpdateSuperTokenLogic =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8919,6 +9098,7 @@ export const writeGovernanceBatchUpdateSuperTokenMinimumDeposit =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8944,6 +9124,7 @@ export const writeGovernanceCastrate = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8970,6 +9151,7 @@ export const writeGovernanceChangeSuperTokenAdmin =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -8996,6 +9178,7 @@ export const writeGovernanceClearAppRegistrationKey =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9021,6 +9204,7 @@ export const writeGovernanceClearConfig = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9046,6 +9230,7 @@ export const writeGovernanceClearPppConfig = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9072,6 +9257,7 @@ export const writeGovernanceClearRewardAddress =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9098,6 +9284,7 @@ export const writeGovernanceClearSuperTokenMinimumDeposit =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9124,6 +9311,7 @@ export const writeGovernanceDisableTrustedForwarder =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9150,6 +9338,7 @@ export const writeGovernanceEnableTrustedForwarder =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9176,6 +9365,7 @@ export const writeGovernanceRegisterAgreementClass =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9202,6 +9392,7 @@ export const writeGovernanceRenounceOwnership =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9228,6 +9419,7 @@ export const writeGovernanceReplaceGovernance =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9254,6 +9446,7 @@ export const writeGovernanceSetAppRegistrationKey =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9279,6 +9472,7 @@ export const writeGovernanceSetConfig = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9304,6 +9498,7 @@ export const writeGovernanceSetPppConfig = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9330,6 +9525,7 @@ export const writeGovernanceSetRewardAddress =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9356,6 +9552,7 @@ export const writeGovernanceSetSuperTokenMinimumDeposit =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9382,6 +9579,7 @@ export const writeGovernanceTransferOwnership =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9408,6 +9606,7 @@ export const writeGovernanceUnauthorizeAppFactory =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9433,6 +9632,7 @@ export const writeGovernanceUpdateCode = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9460,6 +9660,7 @@ export const writeGovernanceUpdateContracts = /*#__PURE__*/ createWriteContract(
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9484,6 +9685,7 @@ export const simulateGovernance = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9510,6 +9712,7 @@ export const simulateGovernanceAuthorizeAppFactory =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9536,6 +9739,7 @@ export const simulateGovernanceBatchChangeSuperTokenAdmin =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9562,6 +9766,7 @@ export const simulateGovernanceBatchUpdateSuperTokenLogic =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9588,6 +9793,7 @@ export const simulateGovernanceBatchUpdateSuperTokenMinimumDeposit =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9613,6 +9819,7 @@ export const simulateGovernanceCastrate = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9639,6 +9846,7 @@ export const simulateGovernanceChangeSuperTokenAdmin =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9665,6 +9873,7 @@ export const simulateGovernanceClearAppRegistrationKey =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9691,6 +9900,7 @@ export const simulateGovernanceClearConfig =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9717,6 +9927,7 @@ export const simulateGovernanceClearPppConfig =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9743,6 +9954,7 @@ export const simulateGovernanceClearRewardAddress =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9769,6 +9981,7 @@ export const simulateGovernanceClearSuperTokenMinimumDeposit =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9795,6 +10008,7 @@ export const simulateGovernanceDisableTrustedForwarder =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9821,6 +10035,7 @@ export const simulateGovernanceEnableTrustedForwarder =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9847,6 +10062,7 @@ export const simulateGovernanceRegisterAgreementClass =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9873,6 +10089,7 @@ export const simulateGovernanceRenounceOwnership =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9899,6 +10116,7 @@ export const simulateGovernanceReplaceGovernance =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9925,6 +10143,7 @@ export const simulateGovernanceSetAppRegistrationKey =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9948,6 +10167,7 @@ export const simulateGovernanceSetConfig = /*#__PURE__*/ createSimulateContract(
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -9974,6 +10194,7 @@ export const simulateGovernanceSetPppConfig =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -10000,6 +10221,7 @@ export const simulateGovernanceSetRewardAddress =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -10026,6 +10248,7 @@ export const simulateGovernanceSetSuperTokenMinimumDeposit =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -10052,6 +10275,7 @@ export const simulateGovernanceTransferOwnership =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -10078,6 +10302,7 @@ export const simulateGovernanceUnauthorizeAppFactory =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -10104,6 +10329,7 @@ export const simulateGovernanceUpdateCode =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -10130,6 +10356,7 @@ export const simulateGovernanceUpdateContracts =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -10154,6 +10381,7 @@ export const watchGovernanceEvent = /*#__PURE__*/ createWatchContractEvent({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -10180,6 +10408,7 @@ export const watchGovernanceAppFactoryAuthorizationChangedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -10206,6 +10435,7 @@ export const watchGovernanceAppRegistrationKeyChangedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -10232,6 +10462,7 @@ export const watchGovernanceCfAv1LiquidationPeriodChangedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -10258,6 +10489,7 @@ export const watchGovernanceCodeUpdatedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -10284,6 +10516,7 @@ export const watchGovernanceConfigChangedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -10310,6 +10543,7 @@ export const watchGovernanceInitializedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -10336,6 +10570,7 @@ export const watchGovernanceOwnershipTransferredEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -10362,6 +10597,7 @@ export const watchGovernancePppConfigurationChangedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -10388,6 +10624,7 @@ export const watchGovernanceRewardAddressChangedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -10414,6 +10651,7 @@ export const watchGovernanceSuperTokenMinimumDepositChangedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xee07D9fce4Cf2a891BC979E9d365929506C2982f)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xaCc7380323681fdb8a0B9F2FE7d69dDFf0664478)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D)
@@ -10440,6 +10678,7 @@ export const watchGovernanceTrustedForwarderChangedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10464,6 +10703,7 @@ export const readHost = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10490,6 +10730,7 @@ export const readHostAclSuperappRegistrationRole =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10515,6 +10756,7 @@ export const readHostAppWhiteListingEnabled = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10540,6 +10782,7 @@ export const readHostCallbackGasLimit = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10565,6 +10808,7 @@ export const readHostMaxAppCallbackLevel = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10590,6 +10834,7 @@ export const readHostMaxNumAgreements = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10617,6 +10862,7 @@ export const readHostNonUpgradableDeployment = /*#__PURE__*/ createReadContract(
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10642,6 +10888,7 @@ export const readHostSimpleForwarder = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10668,6 +10915,7 @@ export const readHostAddToAgreementClassesBitmap =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10693,6 +10941,7 @@ export const readHostDecodeCtx = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10718,6 +10967,7 @@ export const readHostGetAgreementClass = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10743,6 +10993,7 @@ export const readHostGetAppCallbackLevel = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10768,6 +11019,7 @@ export const readHostGetAppManifest = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10793,6 +11045,7 @@ export const readHostGetCodeAddress = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10818,6 +11071,7 @@ export const readHostGetErc2771Forwarder = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10843,6 +11097,7 @@ export const readHostGetGovernance = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10868,6 +11123,7 @@ export const readHostGetNow = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10893,6 +11149,7 @@ export const readHostGetSimpleAcl = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10918,6 +11175,7 @@ export const readHostGetSuperTokenFactory = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10944,6 +11202,7 @@ export const readHostGetSuperTokenFactoryLogic =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10969,6 +11228,7 @@ export const readHostIsAgreementClassListed = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -10994,6 +11254,7 @@ export const readHostIsAgreementTypeListed = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11019,6 +11280,7 @@ export const readHostIsApp = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11044,6 +11306,7 @@ export const readHostIsAppJailed = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11069,6 +11332,7 @@ export const readHostIsCompositeAppAllowed = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11094,6 +11358,7 @@ export const readHostIsCtxValid = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11119,6 +11384,7 @@ export const readHostIsTrustedForwarder = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11144,6 +11410,7 @@ export const readHostMapAgreementClasses = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11169,6 +11436,7 @@ export const readHostProxiableUuid = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11195,6 +11463,7 @@ export const readHostRemoveFromAgreementClassesBitmap =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11220,6 +11489,7 @@ export const readHostVersionRecipient = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11244,6 +11514,7 @@ export const writeHost = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11269,6 +11540,7 @@ export const writeHostAllowCompositeApp = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11294,6 +11566,7 @@ export const writeHostAppCallbackPop = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11319,6 +11592,7 @@ export const writeHostAppCallbackPush = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11344,6 +11618,7 @@ export const writeHostBatchCall = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11369,6 +11644,7 @@ export const writeHostCallAgreement = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11395,6 +11671,7 @@ export const writeHostCallAgreementWithContext =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11420,6 +11697,7 @@ export const writeHostCallAppAction = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11446,6 +11724,7 @@ export const writeHostCallAppActionWithContext =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11471,6 +11750,7 @@ export const writeHostCallAppAfterCallback = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11494,6 +11774,7 @@ export const writeHostCallAppBeforeCallback = /*#__PURE__*/ createWriteContract(
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11519,6 +11800,7 @@ export const writeHostCastrate = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11542,6 +11824,7 @@ export const writeHostChangeSuperTokenAdmin = /*#__PURE__*/ createWriteContract(
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11567,6 +11850,7 @@ export const writeHostCtxUseCredit = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11592,6 +11876,7 @@ export const writeHostForwardBatchCall = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11617,6 +11902,7 @@ export const writeHostInitialize = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11642,6 +11928,7 @@ export const writeHostJailApp = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11668,6 +11955,7 @@ export const writeHostRegisterAgreementClass =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11693,6 +11981,7 @@ export const writeHostRegisterApp = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11718,6 +12007,7 @@ export const writeHostRegisterAppByFactory = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11743,6 +12033,7 @@ export const writeHostRegisterAppWithKey = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11768,6 +12059,7 @@ export const writeHostReplaceGovernance = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11793,6 +12085,7 @@ export const writeHostUpdateAgreementClass = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11818,6 +12111,7 @@ export const writeHostUpdateCode = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11841,6 +12135,7 @@ export const writeHostUpdatePoolBeaconLogic = /*#__PURE__*/ createWriteContract(
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11867,6 +12162,7 @@ export const writeHostUpdateSuperTokenFactory =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11890,6 +12186,7 @@ export const writeHostUpdateSuperTokenLogic = /*#__PURE__*/ createWriteContract(
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11914,6 +12211,7 @@ export const simulateHost = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11940,6 +12238,7 @@ export const simulateHostAllowCompositeApp =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11965,6 +12264,7 @@ export const simulateHostAppCallbackPop = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -11988,6 +12288,7 @@ export const simulateHostAppCallbackPush = /*#__PURE__*/ createSimulateContract(
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12013,6 +12314,7 @@ export const simulateHostBatchCall = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12038,6 +12340,7 @@ export const simulateHostCallAgreement = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12064,6 +12367,7 @@ export const simulateHostCallAgreementWithContext =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12089,6 +12393,7 @@ export const simulateHostCallAppAction = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12115,6 +12420,7 @@ export const simulateHostCallAppActionWithContext =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12141,6 +12447,7 @@ export const simulateHostCallAppAfterCallback =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12167,6 +12474,7 @@ export const simulateHostCallAppBeforeCallback =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12192,6 +12500,7 @@ export const simulateHostCastrate = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12218,6 +12527,7 @@ export const simulateHostChangeSuperTokenAdmin =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12243,6 +12553,7 @@ export const simulateHostCtxUseCredit = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12269,6 +12580,7 @@ export const simulateHostForwardBatchCall =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12294,6 +12606,7 @@ export const simulateHostInitialize = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12319,6 +12632,7 @@ export const simulateHostJailApp = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12345,6 +12659,7 @@ export const simulateHostRegisterAgreementClass =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12370,6 +12685,7 @@ export const simulateHostRegisterApp = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12396,6 +12712,7 @@ export const simulateHostRegisterAppByFactory =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12422,6 +12739,7 @@ export const simulateHostRegisterAppWithKey =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12448,6 +12766,7 @@ export const simulateHostReplaceGovernance =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12474,6 +12793,7 @@ export const simulateHostUpdateAgreementClass =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12499,6 +12819,7 @@ export const simulateHostUpdateCode = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12525,6 +12846,7 @@ export const simulateHostUpdatePoolBeaconLogic =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12551,6 +12873,7 @@ export const simulateHostUpdateSuperTokenFactory =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12577,6 +12900,7 @@ export const simulateHostUpdateSuperTokenLogic =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12601,6 +12925,7 @@ export const watchHostEvent = /*#__PURE__*/ createWatchContractEvent({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12627,6 +12952,7 @@ export const watchHostAgreementClassRegisteredEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12653,6 +12979,7 @@ export const watchHostAgreementClassUpdatedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12679,6 +13006,7 @@ export const watchHostAppRegisteredEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12702,6 +13030,7 @@ export const watchHostCodeUpdatedEvent = /*#__PURE__*/ createWatchContractEvent(
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12728,6 +13057,7 @@ export const watchHostGovernanceReplacedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12751,6 +13081,7 @@ export const watchHostInitializedEvent = /*#__PURE__*/ createWatchContractEvent(
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12776,6 +13107,7 @@ export const watchHostJailEvent = /*#__PURE__*/ createWatchContractEvent({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12802,6 +13134,7 @@ export const watchHostPoolBeaconLogicUpdatedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12828,6 +13161,7 @@ export const watchHostSuperTokenFactoryUpdatedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xd1e2cFb6441680002Eb7A44223160aB9B67d7E6E)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x2dFe937cD98Ab92e59cF3139138f18c823a4efE7)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x3E14dC1b13c488a8d5D310918780c983bD5982E7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xCf8Acb4eF033efF16E8080aed4c7D5B9285D2192)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0xA4Ff07cF81C02CFD356184879D953970cA957585)
@@ -12854,6 +13188,7 @@ export const watchHostSuperTokenLogicUpdatedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -12878,6 +13213,7 @@ export const readIda = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -12903,6 +13239,7 @@ export const readIdaMaxNumSubscriptions = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -12929,6 +13266,7 @@ export const readIdaSlotsBitmapLibraryAddress =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -12954,6 +13292,7 @@ export const readIdaAgreementType = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -12979,6 +13318,7 @@ export const readIdaCalculateDistribution = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13004,6 +13344,7 @@ export const readIdaGetCodeAddress = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13029,6 +13370,7 @@ export const readIdaGetIndex = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13054,6 +13396,7 @@ export const readIdaGetSubscription = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13079,6 +13422,7 @@ export const readIdaGetSubscriptionById = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13104,6 +13448,7 @@ export const readIdaListSubscriptions = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13129,6 +13474,7 @@ export const readIdaProxiableUuid = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13154,6 +13500,7 @@ export const readIdaRealtimeBalanceOf = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13178,6 +13525,7 @@ export const writeIda = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13203,6 +13551,7 @@ export const writeIdaApproveSubscription = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13228,6 +13577,7 @@ export const writeIdaCastrate = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13253,6 +13603,7 @@ export const writeIdaClaim = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13278,6 +13629,7 @@ export const writeIdaCreateIndex = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13303,6 +13655,7 @@ export const writeIdaDeleteSubscription = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13328,6 +13681,7 @@ export const writeIdaDistribute = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13353,6 +13707,7 @@ export const writeIdaRevokeSubscription = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13378,6 +13733,7 @@ export const writeIdaUpdateCode = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13403,6 +13759,7 @@ export const writeIdaUpdateIndex = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13428,6 +13785,7 @@ export const writeIdaUpdateSubscription = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13452,6 +13810,7 @@ export const simulateIda = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13478,6 +13837,7 @@ export const simulateIdaApproveSubscription =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13503,6 +13863,7 @@ export const simulateIdaCastrate = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13528,6 +13889,7 @@ export const simulateIdaClaim = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13553,6 +13915,7 @@ export const simulateIdaCreateIndex = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13579,6 +13942,7 @@ export const simulateIdaDeleteSubscription =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13604,6 +13968,7 @@ export const simulateIdaDistribute = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13630,6 +13995,7 @@ export const simulateIdaRevokeSubscription =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13655,6 +14021,7 @@ export const simulateIdaUpdateCode = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13680,6 +14047,7 @@ export const simulateIdaUpdateIndex = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13706,6 +14074,7 @@ export const simulateIdaUpdateSubscription =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13730,6 +14099,7 @@ export const watchIdaEvent = /*#__PURE__*/ createWatchContractEvent({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13755,6 +14125,7 @@ export const watchIdaCodeUpdatedEvent = /*#__PURE__*/ createWatchContractEvent({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13778,6 +14149,7 @@ export const watchIdaIndexCreatedEvent = /*#__PURE__*/ createWatchContractEvent(
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13804,6 +14176,7 @@ export const watchIdaIndexDistributionClaimedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13830,6 +14203,7 @@ export const watchIdaIndexSubscribedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13856,6 +14230,7 @@ export const watchIdaIndexUnitsUpdatedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13882,6 +14257,7 @@ export const watchIdaIndexUnsubscribedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13905,6 +14281,7 @@ export const watchIdaIndexUpdatedEvent = /*#__PURE__*/ createWatchContractEvent(
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13930,6 +14307,7 @@ export const watchIdaInitializedEvent = /*#__PURE__*/ createWatchContractEvent({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13956,6 +14334,7 @@ export const watchIdaSubscriptionApprovedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -13982,6 +14361,7 @@ export const watchIdaSubscriptionDistributionClaimedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -14008,6 +14388,7 @@ export const watchIdaSubscriptionRevokedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
@@ -14034,6 +14415,7 @@ export const watchIdaSubscriptionUnitsUpdatedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14058,6 +14440,7 @@ export const readSuperTokenFactory = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14084,6 +14467,7 @@ export const readSuperTokenFactoryPoolAdminNftLogic =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14110,6 +14494,7 @@ export const readSuperTokenFactoryPoolMemberNftLogic =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14136,6 +14521,7 @@ export const readSuperTokenFactorySuperTokenLogic =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14162,6 +14548,7 @@ export const readSuperTokenFactoryGetCodeAddress =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14187,6 +14574,7 @@ export const readSuperTokenFactoryGetHost = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14213,6 +14601,7 @@ export const readSuperTokenFactoryGetSuperTokenLogic =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14239,6 +14628,7 @@ export const readSuperTokenFactoryProxiableUuid =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14263,6 +14653,7 @@ export const writeSuperTokenFactory = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14290,6 +14681,7 @@ export const writeSuperTokenFactoryCastrate = /*#__PURE__*/ createWriteContract(
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14316,6 +14708,7 @@ export const writeSuperTokenFactoryCreateErc20Wrapper =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14342,6 +14735,7 @@ export const writeSuperTokenFactoryInitialize =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14368,6 +14762,7 @@ export const writeSuperTokenFactoryInitializeCustomSuperToken =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14394,6 +14789,7 @@ export const writeSuperTokenFactoryUpdateCode =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14418,6 +14814,7 @@ export const simulateSuperTokenFactory = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14444,6 +14841,7 @@ export const simulateSuperTokenFactoryCastrate =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14470,6 +14868,7 @@ export const simulateSuperTokenFactoryCreateErc20Wrapper =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14496,6 +14895,7 @@ export const simulateSuperTokenFactoryInitialize =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14522,6 +14922,7 @@ export const simulateSuperTokenFactoryInitializeCustomSuperToken =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14548,6 +14949,7 @@ export const simulateSuperTokenFactoryUpdateCode =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14573,6 +14975,7 @@ export const watchSuperTokenFactoryEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14599,6 +15002,7 @@ export const watchSuperTokenFactoryCodeUpdatedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14625,6 +15029,7 @@ export const watchSuperTokenFactoryCustomSuperTokenCreatedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14651,6 +15056,7 @@ export const watchSuperTokenFactoryInitializedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14677,6 +15083,7 @@ export const watchSuperTokenFactorySuperTokenCreatedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x8bde47397301F0Cd31b9000032fD517a39c946Eb)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x23410e2659380784498509698ed70E414D384880)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x36be86dEe6BC726Ed0Cbd170ccD2F21760BC73D9)
@@ -14703,6 +15110,7 @@ export const watchSuperTokenFactorySuperTokenLogicCreatedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
@@ -14722,6 +15130,7 @@ export const readToga = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
@@ -14742,6 +15151,7 @@ export const readTogaGetCurrentPic = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
@@ -14762,6 +15172,7 @@ export const readTogaGetCurrentPicInfo = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
@@ -14782,6 +15193,7 @@ export const readTogaGetDefaultExitRateFor = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
@@ -14802,6 +15214,7 @@ export const readTogaGetMaxExitRateFor = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
@@ -14822,6 +15235,7 @@ export const readTogaMinBondDuration = /*#__PURE__*/ createReadContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
@@ -14841,6 +15255,7 @@ export const writeToga = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
@@ -14861,6 +15276,7 @@ export const writeTogaChangeExitRate = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
@@ -14881,6 +15297,7 @@ export const writeTogaTokensReceived = /*#__PURE__*/ createWriteContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
@@ -14900,6 +15317,7 @@ export const simulateToga = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
@@ -14920,6 +15338,7 @@ export const simulateTogaChangeExitRate = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
@@ -14940,6 +15359,7 @@ export const simulateTogaTokensReceived = /*#__PURE__*/ createSimulateContract({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
@@ -14959,6 +15379,7 @@ export const watchTogaEvent = /*#__PURE__*/ createWatchContractEvent({
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
@@ -14980,6 +15401,7 @@ export const watchTogaBondIncreasedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
@@ -15001,6 +15423,7 @@ export const watchTogaExitRateChangedEvent =
  * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
  * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
  * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
  * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
  * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
  * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
