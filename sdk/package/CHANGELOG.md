@@ -1,5 +1,11 @@
 # @sfpro/sdk
 
+## 0.3.1
+
+### Patch Changes
+
+- 5692989: arc-mainnet chain support
+
 ## 0.3.0
 
 ### Minor Changes
