@@ -1,6 +1,7 @@
 import { fallback, http, type Transport } from "viem"
 import {
 	arbitrum,
+	arc,
 	arcTestnet,
 	avalanche,
 	avalancheFuji,
@@ -31,7 +32,8 @@ export const superfluidMainnets: readonly [
 	Chain & { id: (typeof optimism)["id"] },
 	Chain & { id: (typeof polygon)["id"] },
 	Chain & { id: (typeof scroll)["id"] },
-] = [base, arbitrum, avalanche, bsc, celo, gnosis, mainnet, optimism, polygon, scroll]
+	Chain & { id: (typeof arc)["id"] },
+] = [base, arbitrum, avalanche, bsc, celo, gnosis, mainnet, optimism, polygon, scroll, arc]
 
 type MainnetChainId = (typeof superfluidMainnets)[number]["id"]
 
@@ -56,6 +58,8 @@ export const superfluidMainnetTransports = {
 	[optimism.id]: fallback([http(), http("https://rpc-endpoints.superfluid.dev/optimism-mainnet")]),
 	[polygon.id]: fallback([http(), http("https://rpc-endpoints.superfluid.dev/polygon-mainnet")]),
 	[scroll.id]: fallback([http(), http("https://rpc-endpoints.superfluid.dev/scroll-mainnet")]),
+	// viem's arc chain has no default RPC URLs, so a bare http() would throw UrlRequiredError.
+	[arc.id]: fallback([http("https://rpc.mainnet.arc.io"), http("https://rpc-endpoints.superfluid.dev/arc-mainnet")]),
 } as const satisfies Record<MainnetChainId, Transport>
 
 export const superfluidTestnetTransports = {
