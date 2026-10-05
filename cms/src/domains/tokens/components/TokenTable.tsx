@@ -1,3 +1,4 @@
+import superfluidMetadata from "@superfluid-finance/metadata"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import type { TokenResponse } from "../types"
 
@@ -21,23 +22,8 @@ export function TokenTable({ tokens }: TokenTableProps) {
 		}
 	}
 
-	const getChainName = (chainId: number) => {
-		const chainNames: Record<number, string> = {
-			1: "Ethereum",
-			10: "Optimism",
-			137: "Polygon",
-			42161: "Arbitrum",
-			8453: "Base",
-			100: "Gnosis",
-			534352: "Scroll",
-			43114: "Avalanche",
-			42220: "Celo",
-			56: "BSC",
-			11155111: "Sepolia",
-			80002: "Polygon Amoy",
-		}
-		return chainNames[chainId] || `Chain ${chainId}`
-	}
+	const getChainName = (chainId: number) =>
+		superfluidMetadata.getNetworkByChainId(chainId)?.humanReadableName ?? `Chain ${chainId}`
 
 	return (
 		<div className="rounded-md border">
