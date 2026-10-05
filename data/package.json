@@ -18,16 +18,16 @@
 		"api:generate": "tsx scripts/generate-openapi.ts",
 		"api:validate": "tsx scripts/validate-schemas.ts",
 		"api:dev": "pnpm api:generate && next dev --turbopack",
-		"trigger:dev": "pnpm dlx trigger.dev@latest dev",
-		"trigger:login": "pnpm dlx trigger.dev@latest login",
-		"trigger:deploy": "pnpm dlx trigger.dev@latest deploy"
+		"trigger:dev": "trigger dev",
+		"trigger:login": "trigger login",
+		"trigger:deploy": "trigger deploy"
 	},
 	"dependencies": {
 		"@asteasolutions/zod-to-openapi": "^7.3.4",
 		"@coingecko/coingecko-typescript": "^2.5.0",
 		"@superfluid-finance/metadata": "^1.6.5",
 		"@superfluid-finance/tokenlist": "^5.47.0",
-		"@trigger.dev/sdk": "^4.4.6",
+		"@trigger.dev/sdk": "4.4.6",
 		"@vercel/blob": "^2.4.0",
 		"decimal.js": "^10.6.0",
 		"graphql": "^16.14.1",
@@ -44,7 +44,7 @@
 	"devDependencies": {
 		"@graphprotocol/client-cli": "^3.0.7",
 		"@tailwindcss/postcss": "^4.3.0",
-		"@trigger.dev/build": "^4.4.6",
+		"@trigger.dev/build": "4.4.6",
 		"@types/decimal.js": "^7.4.3",
 		"@types/lodash": "^4.17.24",
 		"@types/node": "^24.13.1",
@@ -55,8 +55,9 @@
 		"dotenv": "^17.4.2",
 		"npm": "^11.16.0",
 		"tailwindcss": "^4.3.0",
+		"trigger.dev": "4.4.6",
 		"tsx": "^4.22.4",
 		"typescript": "^5.9.3"
 	},
-	"packageManager": "pnpm@9.15.9+sha512.68046141893c66fad01c079231128e9afb89ef87e2691d69e4d40eee228988295fd4682181bae55b58418c3a253bde65a505ec7c5f9403ece5cc3cd37dcf2531"
+	"packageManager": "pnpm@10.6.2"
 }
