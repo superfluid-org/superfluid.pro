@@ -18,9 +18,9 @@
 		"api:generate": "tsx scripts/generate-openapi.ts",
 		"api:validate": "tsx scripts/validate-schemas.ts",
 		"api:dev": "pnpm api:generate && next dev --turbopack",
-		"trigger:dev": "pnpm dlx trigger.dev@latest dev",
+		"trigger:dev": "pnpm dlx trigger.dev@4.4.6 dev",
 		"trigger:login": "pnpm dlx trigger.dev@latest login",
-		"trigger:deploy": "pnpm dlx trigger.dev@latest deploy"
+		"trigger:deploy": "pnpm dlx trigger.dev@4.4.6 deploy"
 	},
 	"dependencies": {
 		"@asteasolutions/zod-to-openapi": "^7.3.4",
