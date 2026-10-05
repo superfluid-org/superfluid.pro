@@ -80,8 +80,8 @@ export const Chains: CollectionConfig = {
 			name: "nativeTokenWrapper",
 			label: "Native Token Wrapper Address",
 			type: "text",
-			required: true,
-			validate: (value: unknown) => validateWithZod(addressSchema, value),
+			required: false,
+			validate: (value: unknown) => (value ? validateWithZod(optionalAddressSchema, value) : true),
 			hooks: {
 				beforeChange: [({ value }) => transformAddress(value)],
 			},

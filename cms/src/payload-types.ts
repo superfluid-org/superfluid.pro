@@ -266,7 +266,7 @@ export interface Chain {
   isDeprecated: boolean;
   isTestnet: boolean;
   nativeTokenSymbol: string;
-  nativeTokenWrapper: string;
+  nativeTokenWrapper?: string | null;
   contractsV1: {
     resolver: string;
     host: string;

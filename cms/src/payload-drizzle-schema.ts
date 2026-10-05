@@ -256,7 +256,7 @@ export const chains = pgTable(
 		isDeprecated: boolean("is_deprecated").notNull().default(false),
 		isTestnet: boolean("is_testnet").notNull().default(false),
 		nativeTokenSymbol: varchar("native_token_symbol").notNull(),
-		nativeTokenWrapper: varchar("native_token_wrapper").notNull(),
+		nativeTokenWrapper: varchar("native_token_wrapper"),
 		contractsV1_resolver: varchar("contracts_v1_resolver").notNull(),
 		contractsV1_host: varchar("contracts_v1_host").notNull(),
 		contractsV1_governance: varchar("contracts_v1_governance"),
@@ -395,6 +395,10 @@ export const point_events = pgTable(
 		uniqueIndex("point_events_dedup_key_idx").on(columns.dedupKey),
 		index("point_events_updated_at_idx").on(columns.updatedAt),
 		index("point_events_created_at_idx").on(columns.createdAt),
+		index("campaign_eventName_idx").on(columns.campaign, columns.eventName),
+		index("campaign_eventName_account_idx").on(columns.campaign, columns.eventName, columns.account),
+		index("campaign_eventTime_idx").on(columns.campaign, columns.eventTime),
+		index("campaign_account_eventTime_idx").on(columns.campaign, columns.account, columns.eventTime),
 	],
 )
 
@@ -420,6 +424,10 @@ export const point_balances = pgTable(
 		index("point_balances_account_idx").on(columns.account),
 		index("point_balances_updated_at_idx").on(columns.updatedAt),
 		index("point_balances_created_at_idx").on(columns.createdAt),
+		index("campaign_account_idx").on(columns.campaign, columns.account),
+		index("campaign_totalPoints_idx").on(columns.campaign, columns.totalPoints),
+		index("campaign_eventCount_idx").on(columns.campaign, columns.eventCount),
+		index("campaign_lastEventAt_idx").on(columns.campaign, columns.lastEventAt),
 	],
 )
 
