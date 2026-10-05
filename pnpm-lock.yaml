@@ -93,8 +93,8 @@ importers:
         specifier: ^1.6.5
         version: 1.6.5
       '@superfluid-finance/tokenlist':
-        specifier: ^5.41.0
-        version: 5.41.0
+        specifier: ^5.47.0
+        version: 5.47.0
       '@tailwindcss/postcss':
         specifier: ^4.3.0
         version: 4.3.0
@@ -251,8 +251,8 @@ importers:
         specifier: ^1.6.5
         version: 1.6.5
       '@superfluid-finance/tokenlist':
-        specifier: ^5.41.0
-        version: 5.41.0
+        specifier: ^5.47.0
+        version: 5.47.0
       '@trigger.dev/sdk':
         specifier: ^4.4.6
         version: 4.4.6(ai@6.0.33(zod@3.25.76))(bufferutil@4.1.0)(utf-8-validate@6.0.6)(zod@3.25.76)
@@ -400,8 +400,8 @@ importers:
         specifier: ^1.6.5
         version: 1.6.5
       '@superfluid-finance/tokenlist':
-        specifier: ^5.41.0
-        version: 5.41.0
+        specifier: ^5.47.0
+        version: 5.47.0
       '@vercel/mcp-adapter':
         specifier: ^1.0.0
         version: 1.0.0(@modelcontextprotocol/sdk@1.29.0(zod@3.25.76))(next@16.2.7(@opentelemetry/api@1.9.0)(@playwright/test@1.60.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass@1.77.4))
@@ -5775,8 +5775,8 @@ packages:
   '@superfluid-finance/metadata@1.6.5':
     resolution: {integrity: sha512-CDM0YInnc/7f/S9VCyD6hQsCtUATA4w26+BXXAUS6ke0JDWfjg+7ev9WXwdiQl1BqfCDQ9X7BOB5k9uI6CXV0g==}
 
-  '@superfluid-finance/tokenlist@5.41.0':
-    resolution: {integrity: sha512-h81uK7ZxDifmkTeJEyuL5gX4BwFP8vmjylvzad2T0qDeoYBbnjglJ7IFVBWB8Kzjv28pzdrnI/ukhA8MWM5ikQ==}
+  '@superfluid-finance/tokenlist@5.47.0':
+    resolution: {integrity: sha512-d99iBAwiYre4vwKlSxm8wElLbf5y2pdyKgklCSw3X+/HK2fU8+NeV1e6g6f/xEp7mR0g+u1Ha69QmgNeUVjwpA==}
 
   '@swagger-api/apidom-ast@1.11.2':
     resolution: {integrity: sha512-keG5q/AR0zIizKCcfcUKiDXDQscw27SyILFb0kFmVWlgv3JTP+8pdXjzCEFW+C8RKg/etap270jv2s8B6ghuXA==}
@@ -16993,7 +16993,7 @@ snapshots:
     dependencies:
       '@ethersproject/bytes': 5.8.0
       '@ethersproject/logger': 5.8.0
-      bn.js: 5.2.3
+      bn.js: 5.2.5
 
   '@ethersproject/bytes@5.8.0':
     dependencies:
@@ -19072,7 +19072,7 @@ snapshots:
   '@metamask/json-rpc-engine@8.0.2':
     dependencies:
       '@metamask/rpc-errors': 6.4.0
-      '@metamask/safe-event-emitter': 3.1.2
+      '@metamask/safe-event-emitter': 3.1.3
       '@metamask/utils': 8.5.0
     transitivePeerDependencies:
       - supports-color
@@ -19080,7 +19080,7 @@ snapshots:
   '@metamask/json-rpc-middleware-stream@7.0.2':
     dependencies:
       '@metamask/json-rpc-engine': 8.0.2
-      '@metamask/safe-event-emitter': 3.1.2
+      '@metamask/safe-event-emitter': 3.1.3
       '@metamask/utils': 8.5.0
       readable-stream: 3.6.2
     transitivePeerDependencies:
@@ -19221,7 +19221,7 @@ snapshots:
       '@types/debug': 4.1.13
       debug: 4.4.3(supports-color@8.1.1)
       pony-cause: 2.1.11
-      semver: 7.8.2
+      semver: 7.8.5
       uuid: 9.0.1
     transitivePeerDependencies:
       - supports-color
@@ -19235,7 +19235,7 @@ snapshots:
       '@types/debug': 4.1.13
       debug: 4.4.3(supports-color@8.1.1)
       pony-cause: 2.1.11
-      semver: 7.8.2
+      semver: 7.8.5
       uuid: 9.0.1
     transitivePeerDependencies:
       - supports-color
@@ -22727,7 +22727,7 @@ snapshots:
 
   '@superfluid-finance/metadata@1.6.5': {}
 
-  '@superfluid-finance/tokenlist@5.41.0':
+  '@superfluid-finance/tokenlist@5.47.0':
     dependencies:
       '@uniswap/token-lists': 1.0.0-beta.34
 
@@ -23502,7 +23502,7 @@ snapshots:
       '@truffle/abi-utils': 1.0.3
       '@truffle/compile-common': 0.9.8
       big.js: 6.2.2
-      bn.js: 5.2.3
+      bn.js: 5.2.5
       cbor: 5.2.0
       debug: 4.4.3(supports-color@8.1.1)
       lodash: 4.18.1
@@ -34504,7 +34504,7 @@ snapshots:
 
   web3-eth-iban@1.10.0:
     dependencies:
-      bn.js: 5.2.3
+      bn.js: 5.2.5
       web3-utils: 1.10.0
 
   web3-eth-iban@1.10.4:
