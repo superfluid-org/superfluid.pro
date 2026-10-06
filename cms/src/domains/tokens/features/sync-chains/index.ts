@@ -25,7 +25,7 @@ export async function syncChains() {
 			uppercaseName: network.uppercaseName,
 			humanReadableName: network.humanReadableName,
 			nativeTokenSymbol: network.nativeTokenSymbol,
-			nativeTokenWrapper: network.nativeTokenWrapper || "",
+			nativeTokenWrapper: network.nativeTokenWrapper || null,
 			contractsV1: {
 				resolver: network.contractsV1.resolver,
 				host: network.contractsV1.host,

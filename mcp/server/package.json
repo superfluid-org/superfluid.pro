@@ -14,7 +14,7 @@
 		"@modelcontextprotocol/sdk": "^1.29.0",
 		"@sfpro/sdk": "workspace:*",
 		"@superfluid-finance/metadata": "^1.6.5",
-		"@superfluid-finance/tokenlist": "^5.41.0",
+		"@superfluid-finance/tokenlist": "^5.47.0",
 		"@vercel/mcp-adapter": "^1.0.0",
 		"fuse.js": "^7.4.2",
 		"graphql": "^16.14.1",
