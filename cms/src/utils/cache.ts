@@ -54,11 +54,16 @@ let cacheProvider: CacheProvider | null = null
 
 export function getCacheProvider(): CacheProvider {
 	if (!cacheProvider) {
-		const redisUrl = process.env.REDIS_URL
-		const redisToken = process.env.REDIS_TOKEN
-		if (redisUrl && redisToken) {
-			cacheProvider = new RedisCacheProvider(redisUrl, redisToken)
+		// REST credentials injected by the Vercel Upstash integration. Its REDIS_URL is a
+		// rediss:// TCP URL, which the REST client cannot use.
+		const restUrl = process.env.KV_REST_API_URL
+		const restToken = process.env.KV_REST_API_TOKEN
+		if (restUrl && restToken) {
+			cacheProvider = new RedisCacheProvider(restUrl, restToken)
 		} else {
+			if (process.env.VERCEL_ENV === "production") {
+				console.warn("KV_REST_API_URL/KV_REST_API_TOKEN not set; price cache is per-instance memory")
+			}
 			cacheProvider = new MemoryCacheProvider()
 		}
 	}
