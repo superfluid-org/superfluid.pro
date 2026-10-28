@@ -11,7 +11,9 @@ class RedisCacheProvider implements CacheProvider {
 	private client: Redis
 
 	constructor(url: string, token: string) {
-		this.client = new Redis({ url, token })
+		// Values are JSON strings we serialize ourselves; without this the client parses
+		// them on get and callers' JSON.parse receives an object.
+		this.client = new Redis({ url, token, automaticDeserialization: false })
 	}
 
 	async get(key: string): Promise<string | null> {
