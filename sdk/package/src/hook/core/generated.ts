@@ -2752,6 +2752,7 @@ export const hostAbi = [
   { type: 'error', inputs: [], name: 'HOST_AGREEMENT_ALREADY_REGISTERED' },
   { type: 'error', inputs: [], name: 'HOST_AGREEMENT_CALLBACK_IS_NOT_ACTION' },
   { type: 'error', inputs: [], name: 'HOST_AGREEMENT_IS_NOT_REGISTERED' },
+  { type: 'error', inputs: [], name: 'HOST_CALLBACK_CONTEXT_TOO_LARGE' },
   {
     type: 'error',
     inputs: [],
@@ -3139,6 +3140,7 @@ export const hostAbi = [
       { name: 'callData', internalType: 'bytes', type: 'bytes' },
       { name: 'isTermination', internalType: 'bool', type: 'bool' },
       { name: 'ctx', internalType: 'bytes', type: 'bytes' },
+      { name: 'callbackGasLimit', internalType: 'uint256', type: 'uint256' },
     ],
     name: 'callAppAfterCallback',
     outputs: [{ name: 'newCtx', internalType: 'bytes', type: 'bytes' }],
@@ -3151,9 +3153,17 @@ export const hostAbi = [
       { name: 'callData', internalType: 'bytes', type: 'bytes' },
       { name: 'isTermination', internalType: 'bool', type: 'bool' },
       { name: 'ctx', internalType: 'bytes', type: 'bytes' },
+      { name: 'callbackGasLimit', internalType: 'uint256', type: 'uint256' },
     ],
     name: 'callAppBeforeCallback',
-    outputs: [{ name: 'cbdata', internalType: 'bytes', type: 'bytes' }],
+    outputs: [
+      { name: 'cbdata', internalType: 'bytes', type: 'bytes' },
+      {
+        name: 'remainingCallbackGas',
+        internalType: 'uint256',
+        type: 'uint256',
+      },
+    ],
     stateMutability: 'nonpayable',
   },
   {
@@ -3717,10 +3727,13 @@ export const hostAbi = [
   { type: 'error', inputs: [], name: 'IDA_INDEX_DOES_NOT_EXIST' },
   { type: 'error', inputs: [], name: 'IDA_INDEX_SHOULD_GROW' },
   { type: 'error', inputs: [], name: 'IDA_INSUFFICIENT_BALANCE' },
+  { type: 'error', inputs: [], name: 'IDA_INVALID_MAX_NUM_SUBSCRIPTIONS' },
+  { type: 'error', inputs: [], name: 'IDA_NEW_ACTIVITY_FROZEN' },
   { type: 'error', inputs: [], name: 'IDA_OPERATION_NOT_ALLOWED' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_ALREADY_APPROVED' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_DOES_NOT_EXIST' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_IS_NOT_APPROVED' },
+  { type: 'error', inputs: [], name: 'IDA_TOO_MANY_SUBSCRIPTIONS' },
   { type: 'error', inputs: [], name: 'IDA_ZERO_ADDRESS_SUBSCRIBER' },
 ] as const
 
@@ -3808,6 +3821,8 @@ export const idaAbi = [
     type: 'constructor',
     inputs: [
       { name: 'host', internalType: 'contract ISuperfluid', type: 'address' },
+      { name: 'newActivityFrozen', internalType: 'bool', type: 'bool' },
+      { name: 'maxNumSubscriptions', internalType: 'uint32', type: 'uint32' },
     ],
     stateMutability: 'nonpayable',
   },
@@ -3816,10 +3831,13 @@ export const idaAbi = [
   { type: 'error', inputs: [], name: 'IDA_INDEX_DOES_NOT_EXIST' },
   { type: 'error', inputs: [], name: 'IDA_INDEX_SHOULD_GROW' },
   { type: 'error', inputs: [], name: 'IDA_INSUFFICIENT_BALANCE' },
+  { type: 'error', inputs: [], name: 'IDA_INVALID_MAX_NUM_SUBSCRIPTIONS' },
+  { type: 'error', inputs: [], name: 'IDA_NEW_ACTIVITY_FROZEN' },
   { type: 'error', inputs: [], name: 'IDA_OPERATION_NOT_ALLOWED' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_ALREADY_APPROVED' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_DOES_NOT_EXIST' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_IS_NOT_APPROVED' },
+  { type: 'error', inputs: [], name: 'IDA_TOO_MANY_SUBSCRIPTIONS' },
   { type: 'error', inputs: [], name: 'IDA_ZERO_ADDRESS_SUBSCRIBER' },
   {
     type: 'error',
@@ -4265,6 +4283,13 @@ export const idaAbi = [
     inputs: [],
     name: 'MAX_NUM_SUBSCRIPTIONS',
     outputs: [{ name: '', internalType: 'uint32', type: 'uint32' }],
+    stateMutability: 'view',
+  },
+  {
+    type: 'function',
+    inputs: [],
+    name: 'NEW_ACTIVITY_FROZEN',
+    outputs: [{ name: '', internalType: 'bool', type: 'bool' }],
     stateMutability: 'view',
   },
   {
@@ -5110,6 +5135,17 @@ export const togaAbi = [
     type: 'function',
     inputs: [
       { name: 'token', internalType: 'contract ISuperToken', type: 'address' },
+      { name: 'amount', internalType: 'uint256', type: 'uint256' },
+      { name: 'exitRate', internalType: 'int96', type: 'int96' },
+    ],
+    name: 'bond',
+    outputs: [],
+    stateMutability: 'nonpayable',
+  },
+  {
+    type: 'function',
+    inputs: [
+      { name: 'token', internalType: 'contract ISuperToken', type: 'address' },
       { name: 'newExitRate', internalType: 'int96', type: 'int96' },
     ],
     name: 'changeExitRate',
@@ -5133,7 +5169,7 @@ export const togaAbi = [
     name: 'getCurrentPICInfo',
     outputs: [
       { name: 'pic', internalType: 'address', type: 'address' },
-      { name: 'bond', internalType: 'uint256', type: 'uint256' },
+      { name: 'bondAmount', internalType: 'uint256', type: 'uint256' },
       { name: 'exitRate', internalType: 'int96', type: 'int96' },
     ],
     stateMutability: 'view',
@@ -13287,6 +13323,32 @@ export const useReadIdaMaxNumSubscriptions =
   })
 
 /**
+ * Wraps __{@link useReadContract}__ with `abi` set to __{@link idaAbi}__ and `functionName` set to `"NEW_ACTIVITY_FROZEN"`
+ *
+ * - [__View Contract on Ethereum Etherscan__](https://etherscan.io/address/0xbCF9cfA8Da20B591790dF27DE65C1254Bf91563d)
+ * - [__View Contract on Op Mainnet Optimism Explorer__](https://optimistic.etherscan.io/address/0xc4ce5118C3B20950ee288f086cb7FC166d222D4c)
+ * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0x594ed9Cd773584B645aC1F5B11020d3b32cDF07d)
+ * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0x7888ac96F987Eb10E291F34851ae0266eF912081)
+ * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1)
+ * -
+ * - [__View Contract on Base Basescan__](https://basescan.org/address/0x66DF3f8e14CF870361378d8F61356D15d9F425C4)
+ * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0x2319C7e07EB063340D2a0E36709B0D65fda75986)
+ * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x26747Fe93fAC8bF28E1e24A558a2bC7E4d9846cA)
+ * - [__View Contract on Avalanche Fuji Snow Trace__](https://testnet.snowtrace.io/address/0xA44dEC7A0Dde1a56AeDe4143C1ef89cf5d956782)
+ * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x1fA9fFe8Db73F701454B195151Db4Abb18423cf2)
+ * - [__View Contract on Base Sepolia Basescan__](https://sepolia.basescan.org/address/0x9358C7dCCc6B8CA6F526311e8ac266F8C861B7ea)
+ * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x4112557F0F228A18654d3C39599421DE9F61144d)
+ * - [__View Contract on Arc Testnet Arc Scan__](https://testnet.arcscan.app/address/0x73a4A5B5CBa803D90f9cEE00F60523d48ddd53e2)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x9358C7dCCc6B8CA6F526311e8ac266F8C861B7ea)
+ * - [__View Contract on Op Sepolia Blockscout__](https://optimism-sepolia.blockscout.com/address/0x51BDA2C5F627d456E282257710F4A4b6Eb094A52)
+ */
+export const useReadIdaNewActivityFrozen = /*#__PURE__*/ createUseReadContract({
+  abi: idaAbi,
+  address: idaAddress,
+  functionName: 'NEW_ACTIVITY_FROZEN',
+})
+
+/**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link idaAbi}__ and `functionName` set to `"SLOTS_BITMAP_LIBRARY_ADDRESS"`
  *
  * - [__View Contract on Ethereum Etherscan__](https://etherscan.io/address/0xbCF9cfA8Da20B591790dF27DE65C1254Bf91563d)
@@ -15313,6 +15375,27 @@ export const useWriteToga = /*#__PURE__*/ createUseWriteContract({
 })
 
 /**
+ * Wraps __{@link useWriteContract}__ with `abi` set to __{@link togaAbi}__ and `functionName` set to `"bond"`
+ *
+ * - [__View Contract on Ethereum Etherscan__](https://etherscan.io/address/0x8B5a2CF69a56d7F8Fa027edcA23594cdDF544dDc)
+ * - [__View Contract on Op Mainnet Optimism Explorer__](https://optimistic.etherscan.io/address/0xA3c8502187fD7a7118eAD59dc811281448946C8f)
+ * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
+ * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
+ * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
+ * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
+ * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
+ * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
+ * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x3D9A67D5ec1E72CEcA8157e028855056786b6159)
+ * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x1bF9D75d50fD828a93f69ECB06f2B85767792CEB)
+ */
+export const useWriteTogaBond = /*#__PURE__*/ createUseWriteContract({
+  abi: togaAbi,
+  address: togaAddress,
+  functionName: 'bond',
+})
+
+/**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link togaAbi}__ and `functionName` set to `"changeExitRate"`
  *
  * - [__View Contract on Ethereum Etherscan__](https://etherscan.io/address/0x8B5a2CF69a56d7F8Fa027edcA23594cdDF544dDc)
@@ -15372,6 +15455,27 @@ export const useWriteTogaTokensReceived = /*#__PURE__*/ createUseWriteContract({
 export const useSimulateToga = /*#__PURE__*/ createUseSimulateContract({
   abi: togaAbi,
   address: togaAddress,
+})
+
+/**
+ * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link togaAbi}__ and `functionName` set to `"bond"`
+ *
+ * - [__View Contract on Ethereum Etherscan__](https://etherscan.io/address/0x8B5a2CF69a56d7F8Fa027edcA23594cdDF544dDc)
+ * - [__View Contract on Op Mainnet Optimism Explorer__](https://optimistic.etherscan.io/address/0xA3c8502187fD7a7118eAD59dc811281448946C8f)
+ * - [__View Contract on Bnb Smart Chain Bsc Scan__](https://bscscan.com/address/0xFCD84210f5d51Cd40a30443d44d6A5500d5D10dF)
+ * - [__View Contract on Gnosis Gnosisscan__](https://gnosisscan.io/address/0xb7DE52F4281a7a276E18C40F94cd93159C4A2d22)
+ * - [__View Contract on Polygon Polygon Scan__](https://polygonscan.com/address/0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7)
+ * -
+ * - [__View Contract on Base Basescan__](https://basescan.org/address/0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09)
+ * - [__View Contract on Arbitrum One Arbiscan__](https://arbiscan.io/address/0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF)
+ * - [__View Contract on Celo Celo Explorer__](https://celoscan.io/address/0x9bCa3a623e7b2e248510d88B2894F54898d88F91)
+ * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x3D9A67D5ec1E72CEcA8157e028855056786b6159)
+ * - [__View Contract on Scroll Scrollscan__](https://scrollscan.com/address/0x1bF9D75d50fD828a93f69ECB06f2B85767792CEB)
+ */
+export const useSimulateTogaBond = /*#__PURE__*/ createUseSimulateContract({
+  abi: togaAbi,
+  address: togaAddress,
+  functionName: 'bond',
 })
 
 /**

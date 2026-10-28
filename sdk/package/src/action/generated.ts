@@ -231,6 +231,7 @@ export const blindMacroForwarderAbi = [
   { type: 'error', inputs: [], name: 'HOST_AGREEMENT_ALREADY_REGISTERED' },
   { type: 'error', inputs: [], name: 'HOST_AGREEMENT_CALLBACK_IS_NOT_ACTION' },
   { type: 'error', inputs: [], name: 'HOST_AGREEMENT_IS_NOT_REGISTERED' },
+  { type: 'error', inputs: [], name: 'HOST_CALLBACK_CONTEXT_TOO_LARGE' },
   {
     type: 'error',
     inputs: [],
@@ -266,10 +267,13 @@ export const blindMacroForwarderAbi = [
   { type: 'error', inputs: [], name: 'IDA_INDEX_DOES_NOT_EXIST' },
   { type: 'error', inputs: [], name: 'IDA_INDEX_SHOULD_GROW' },
   { type: 'error', inputs: [], name: 'IDA_INSUFFICIENT_BALANCE' },
+  { type: 'error', inputs: [], name: 'IDA_INVALID_MAX_NUM_SUBSCRIPTIONS' },
+  { type: 'error', inputs: [], name: 'IDA_NEW_ACTIVITY_FROZEN' },
   { type: 'error', inputs: [], name: 'IDA_OPERATION_NOT_ALLOWED' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_ALREADY_APPROVED' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_DOES_NOT_EXIST' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_IS_NOT_APPROVED' },
+  { type: 'error', inputs: [], name: 'IDA_TOO_MANY_SUBSCRIPTIONS' },
   { type: 'error', inputs: [], name: 'IDA_ZERO_ADDRESS_SUBSCRIBER' },
 ] as const
 
@@ -1157,6 +1161,7 @@ export const clearMacroForwarderAbi = [
   { type: 'error', inputs: [], name: 'HOST_AGREEMENT_ALREADY_REGISTERED' },
   { type: 'error', inputs: [], name: 'HOST_AGREEMENT_CALLBACK_IS_NOT_ACTION' },
   { type: 'error', inputs: [], name: 'HOST_AGREEMENT_IS_NOT_REGISTERED' },
+  { type: 'error', inputs: [], name: 'HOST_CALLBACK_CONTEXT_TOO_LARGE' },
   {
     type: 'error',
     inputs: [],
@@ -1192,10 +1197,13 @@ export const clearMacroForwarderAbi = [
   { type: 'error', inputs: [], name: 'IDA_INDEX_DOES_NOT_EXIST' },
   { type: 'error', inputs: [], name: 'IDA_INDEX_SHOULD_GROW' },
   { type: 'error', inputs: [], name: 'IDA_INSUFFICIENT_BALANCE' },
+  { type: 'error', inputs: [], name: 'IDA_INVALID_MAX_NUM_SUBSCRIPTIONS' },
+  { type: 'error', inputs: [], name: 'IDA_NEW_ACTIVITY_FROZEN' },
   { type: 'error', inputs: [], name: 'IDA_OPERATION_NOT_ALLOWED' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_ALREADY_APPROVED' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_DOES_NOT_EXIST' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_IS_NOT_APPROVED' },
+  { type: 'error', inputs: [], name: 'IDA_TOO_MANY_SUBSCRIPTIONS' },
   { type: 'error', inputs: [], name: 'IDA_ZERO_ADDRESS_SUBSCRIBER' },
 ] as const
 

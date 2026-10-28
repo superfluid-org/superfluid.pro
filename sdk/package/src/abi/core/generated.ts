@@ -2745,6 +2745,7 @@ export const hostAbi = [
   { type: 'error', inputs: [], name: 'HOST_AGREEMENT_ALREADY_REGISTERED' },
   { type: 'error', inputs: [], name: 'HOST_AGREEMENT_CALLBACK_IS_NOT_ACTION' },
   { type: 'error', inputs: [], name: 'HOST_AGREEMENT_IS_NOT_REGISTERED' },
+  { type: 'error', inputs: [], name: 'HOST_CALLBACK_CONTEXT_TOO_LARGE' },
   {
     type: 'error',
     inputs: [],
@@ -3132,6 +3133,7 @@ export const hostAbi = [
       { name: 'callData', internalType: 'bytes', type: 'bytes' },
       { name: 'isTermination', internalType: 'bool', type: 'bool' },
       { name: 'ctx', internalType: 'bytes', type: 'bytes' },
+      { name: 'callbackGasLimit', internalType: 'uint256', type: 'uint256' },
     ],
     name: 'callAppAfterCallback',
     outputs: [{ name: 'newCtx', internalType: 'bytes', type: 'bytes' }],
@@ -3144,9 +3146,17 @@ export const hostAbi = [
       { name: 'callData', internalType: 'bytes', type: 'bytes' },
       { name: 'isTermination', internalType: 'bool', type: 'bool' },
       { name: 'ctx', internalType: 'bytes', type: 'bytes' },
+      { name: 'callbackGasLimit', internalType: 'uint256', type: 'uint256' },
     ],
     name: 'callAppBeforeCallback',
-    outputs: [{ name: 'cbdata', internalType: 'bytes', type: 'bytes' }],
+    outputs: [
+      { name: 'cbdata', internalType: 'bytes', type: 'bytes' },
+      {
+        name: 'remainingCallbackGas',
+        internalType: 'uint256',
+        type: 'uint256',
+      },
+    ],
     stateMutability: 'nonpayable',
   },
   {
@@ -3710,10 +3720,13 @@ export const hostAbi = [
   { type: 'error', inputs: [], name: 'IDA_INDEX_DOES_NOT_EXIST' },
   { type: 'error', inputs: [], name: 'IDA_INDEX_SHOULD_GROW' },
   { type: 'error', inputs: [], name: 'IDA_INSUFFICIENT_BALANCE' },
+  { type: 'error', inputs: [], name: 'IDA_INVALID_MAX_NUM_SUBSCRIPTIONS' },
+  { type: 'error', inputs: [], name: 'IDA_NEW_ACTIVITY_FROZEN' },
   { type: 'error', inputs: [], name: 'IDA_OPERATION_NOT_ALLOWED' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_ALREADY_APPROVED' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_DOES_NOT_EXIST' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_IS_NOT_APPROVED' },
+  { type: 'error', inputs: [], name: 'IDA_TOO_MANY_SUBSCRIPTIONS' },
   { type: 'error', inputs: [], name: 'IDA_ZERO_ADDRESS_SUBSCRIBER' },
 ] as const
 
@@ -3801,6 +3814,8 @@ export const idaAbi = [
     type: 'constructor',
     inputs: [
       { name: 'host', internalType: 'contract ISuperfluid', type: 'address' },
+      { name: 'newActivityFrozen', internalType: 'bool', type: 'bool' },
+      { name: 'maxNumSubscriptions', internalType: 'uint32', type: 'uint32' },
     ],
     stateMutability: 'nonpayable',
   },
@@ -3809,10 +3824,13 @@ export const idaAbi = [
   { type: 'error', inputs: [], name: 'IDA_INDEX_DOES_NOT_EXIST' },
   { type: 'error', inputs: [], name: 'IDA_INDEX_SHOULD_GROW' },
   { type: 'error', inputs: [], name: 'IDA_INSUFFICIENT_BALANCE' },
+  { type: 'error', inputs: [], name: 'IDA_INVALID_MAX_NUM_SUBSCRIPTIONS' },
+  { type: 'error', inputs: [], name: 'IDA_NEW_ACTIVITY_FROZEN' },
   { type: 'error', inputs: [], name: 'IDA_OPERATION_NOT_ALLOWED' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_ALREADY_APPROVED' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_DOES_NOT_EXIST' },
   { type: 'error', inputs: [], name: 'IDA_SUBSCRIPTION_IS_NOT_APPROVED' },
+  { type: 'error', inputs: [], name: 'IDA_TOO_MANY_SUBSCRIPTIONS' },
   { type: 'error', inputs: [], name: 'IDA_ZERO_ADDRESS_SUBSCRIBER' },
   {
     type: 'error',
@@ -4258,6 +4276,13 @@ export const idaAbi = [
     inputs: [],
     name: 'MAX_NUM_SUBSCRIPTIONS',
     outputs: [{ name: '', internalType: 'uint32', type: 'uint32' }],
+    stateMutability: 'view',
+  },
+  {
+    type: 'function',
+    inputs: [],
+    name: 'NEW_ACTIVITY_FROZEN',
+    outputs: [{ name: '', internalType: 'bool', type: 'bool' }],
     stateMutability: 'view',
   },
   {
@@ -5103,6 +5128,17 @@ export const togaAbi = [
     type: 'function',
     inputs: [
       { name: 'token', internalType: 'contract ISuperToken', type: 'address' },
+      { name: 'amount', internalType: 'uint256', type: 'uint256' },
+      { name: 'exitRate', internalType: 'int96', type: 'int96' },
+    ],
+    name: 'bond',
+    outputs: [],
+    stateMutability: 'nonpayable',
+  },
+  {
+    type: 'function',
+    inputs: [
+      { name: 'token', internalType: 'contract ISuperToken', type: 'address' },
       { name: 'newExitRate', internalType: 'int96', type: 'int96' },
     ],
     name: 'changeExitRate',
@@ -5126,7 +5162,7 @@ export const togaAbi = [
     name: 'getCurrentPICInfo',
     outputs: [
       { name: 'pic', internalType: 'address', type: 'address' },
-      { name: 'bond', internalType: 'uint256', type: 'uint256' },
+      { name: 'bondAmount', internalType: 'uint256', type: 'uint256' },
       { name: 'exitRate', internalType: 'int96', type: 'int96' },
     ],
     stateMutability: 'view',
