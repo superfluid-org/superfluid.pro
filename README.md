@@ -19,7 +19,7 @@ pnpm install
 pnpm dev
 ```
 
-`pnpm dev` runs the website, the SDK docs and the MCP docs. Commands for each package are in [CLAUDE.md](CLAUDE.md).
+`pnpm dev` runs the website, the SDK docs and the MCP docs. Commands for each package are in [AGENTS.md](AGENTS.md).
 
 ## Releases
 

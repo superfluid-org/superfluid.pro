@@ -1,6 +1,4 @@
-# CLAUDE.md
-
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+# Superfluid Pro
 
 ## Critical Instructions
 
@@ -21,8 +19,8 @@ This is a monorepo for Superfluid Pro suite of products using pnpm workspaces an
   - **mcp/server/** - MCP server implementation
   - **mcp/docs/** - MCP documentation (Fumadocs-based)
 - **website/** - Main website (Next.js)
-- **cms/** - Payload CMS for managing Superfluid data
-- **data/** - Data aggregation and processing system
+- **cms/** - Payload CMS for managing Superfluid data, including the Points API (see `cms/AGENTS.md`)
+- **data/** - Data aggregation and processing system (see `data/AGENTS.md`)
 
 ## Development Commands
 
@@ -52,7 +50,7 @@ pnpm test           # Run tests with Vitest
 # In sdk/docs/ or mcp/docs/
 pnpm dev            # Start development server (port 3001 for SDK, 3002 for MCP)
 pnpm build          # Build documentation
-pnpm typecheck      # Type check
+pnpm typecheck      # Type check (sdk/docs only)
 ```
 
 ### MCP Server Commands (in mcp/server/)
@@ -60,7 +58,7 @@ pnpm typecheck      # Type check
 pnpm dev            # Start development server
 pnpm build          # Build server
 pnpm start          # Start production server
-pnpm lint           # Run Next.js linting
+pnpm lint           # Run Biome checks
 pnpm typecheck      # Type check
 ```
 
@@ -82,7 +80,7 @@ pnpm build          # Build and generate OpenAPI specs
 pnpm typecheck      # Type check
 pnpm codegen        # Generate subgraph types from GraphQL
 pnpm test:fetch-super-tokens  # Test token fetching locally
-pnpm api:generate   # Generate OpenAPI documentation
+pnpm api:generate   # Generate the OpenAPI document
 pnpm trigger:dev    # Run Trigger.dev locally
 ```
 
@@ -91,7 +89,7 @@ pnpm trigger:dev    # Run Trigger.dev locally
 ### SDK Package
 The SDK uses Wagmi CLI to generate TypeScript bindings from Ethereum contracts:
 - ABIs are stored in `abis/` directory
-- Generated code is organized by type (abi, hook, action) and category (core, automation)
+- Generated code is organized by type (abi, hook, action) and category (core, automation, sup)
 - Each export follows a modular structure for better tree-shaking
 - Uses Vitest for testing
 - Configuration in `wagmi.config.ts` controls code generation
@@ -104,16 +102,15 @@ Both documentation sites use Fumadocs with:
 - Tailwind CSS for styling
 
 ### CMS Architecture
-- Payload CMS v3 with SQLite database
-- Domain-based folder structure (`src/domains/tokens/`) for feature organization
-- Each domain contains: types, collections, components, hooks, features, trigger jobs
-- Collections: Users, Media, Tokens, Chains
-- Data sync from multiple sources (tokenlist, API, Streme.fun)
+- Payload CMS v3. Database: Vercel Postgres when `POSTGRES_URL` is set, SQLite otherwise
+- Domain-based folder structure (`src/domains/tokens/`, `src/domains/points/`)
+- Collections: Users, Tokens, Chains, plus the points collections (Campaigns, ApiKeys, PushRequests, PointEvents, PointBalances)
+- Token data sync from multiple sources (tokenlist, data API, Streme.fun, subgraph)
 - Composite IDs for tokens using `chainId:address` pattern
-- Comprehensive Zod validation for all fields
+- Details in `cms/AGENTS.md`
 
 ### Data Processing
-- Trigger.dev v3 for scheduled jobs
+- Trigger.dev v4 for scheduled jobs
 - GraphQL integration for blockchain data
 - CoinGecko API for price tracking
 - Vercel Blob storage for production data
@@ -121,7 +118,7 @@ Both documentation sites use Fumadocs with:
 ### Code Style
 - Uses Biome for formatting and linting
 - Tab indentation, 120 character line width
-- Double quotes for JavaScript strings
+- Double quotes for JavaScript strings, semicolons only where needed
 - TypeScript strict mode enabled
 - Organized imports enabled
 
